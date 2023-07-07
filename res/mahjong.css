@@ -1,8 +1,54 @@
 :root{
+  --body-padding-horizontal: 1rem;
+  --header-nav-height: 3rem;
   --html-max-width: 44rem;
+}
+
+
+body {
+  background: white;
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  overflow-wrap: break-word;
+    /* allow breaking of long URLs */
+  padding: var(--header-nav-height) var(--body-padding-horizontal) 0.7rem;
+}
+
+
+header {
+  margin-left: calc(-1 * var(--body-padding-horizontal));
+  max-width: var(--html-max-width);
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
 
 
 html {
   max-width: var(--html-max-width);
+}
+
+
+header > nav {
+  background: #bfb;
+  display: inline-block;
+  font-size: calc(0.5 * var(--header-nav-height));
+  margin: 0;
+  vertical-align: middle;
+  width: var(--html-max-width);
+}
+header > nav > ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  height: var(--header-nav-height);
+  list-style-type: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0 0.3rem;
+  white-space: nowrap;
+}
+header > nav > ul > li {
+  padding: 0 0.7rem;
 }

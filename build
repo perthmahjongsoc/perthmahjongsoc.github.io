@@ -8,3 +8,4 @@
 # - <https://github.com/conway-markdown/conway-markdown>
 
 python3 ../conway-markdown/cmd.py
+python3 ./sitemap.py

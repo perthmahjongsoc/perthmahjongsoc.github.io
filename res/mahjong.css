@@ -26,7 +26,7 @@ header {
 
 
 header > nav {
-  background: #def;
+  background: #fed;
   display: inline-block;
   font-size: calc(0.5 * var(--header-nav-height));
   margin: 0;
@@ -61,7 +61,7 @@ table {
   border-collapse: collapse;
 }
 th {
-  background: #fed;
+  background: #def;
 }
 th, td {
   border: 1px solid black;

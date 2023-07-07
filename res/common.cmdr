@@ -1,3 +1,17 @@
 OrdinaryDictionaryReplacement: #.common.properties-override
 - queue_position: BEFORE #boilerplate-properties
 * </title> --> " | Perth Mahjong Society</title>"
+
+
+OrdinaryDictionaryReplacement: #.common.header-nav
+- queue_position: BEFORE #unordered-lists
+* %header-nav -->
+    <header>
+      <nav>
+        ==
+        - [Home](/)
+        - [About](/about/)
+        - [Scores](/scores/)
+        ==
+      </nav>
+    </header>

@@ -49,6 +49,13 @@ header > nav > ul > li {
 }
 
 
+footer {
+  border-top: 2px solid black;
+  margin-top: 3em;
+  padding-top: 1em;
+}
+
+
 html {
   background: #1d7;
   max-width: var(--html-max-width);

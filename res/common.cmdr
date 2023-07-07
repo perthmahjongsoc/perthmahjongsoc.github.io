@@ -1,5 +1,7 @@
 OrdinaryDictionaryReplacement: #.common.properties-override
 - queue_position: BEFORE #boilerplate-properties
+* %head-elements-after-viewport -->
+    <link rel="stylesheet" href="/res/mahjong.css">
 * </title> --> " | Perth Mahjong Society</title>"
 
 

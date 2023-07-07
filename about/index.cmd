@@ -7,7 +7,5 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 
 %%%
 
-%header-nav
-
 
 # About Perth Mahjong Society

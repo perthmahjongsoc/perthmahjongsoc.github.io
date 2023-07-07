@@ -6,8 +6,6 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 
 %%%
 
-%header-nav
-
 
 # 404: Page not found
 

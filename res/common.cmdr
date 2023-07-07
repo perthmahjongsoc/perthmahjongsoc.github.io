@@ -5,18 +5,20 @@ OrdinaryDictionaryReplacement: #.common.properties-override
 * </title> --> " | Perth Mahjong Society</title>"
 
 
-OrdinaryDictionaryReplacement: #.common.header-nav
+RegexDictionaryReplacement: #.common.header-nav
 - queue_position: BEFORE #unordered-lists
-* %header-nav -->
-    <header>
-      <nav>
-        ==
-        - [Home](/)
-        - [About](/about/)
-        - [Scores](/scores/)
-        ==
-      </nav>
-    </header>
+* \A -->
+    "
+      <header>
+        <nav>
+          ==
+          - [Home](/)
+          - [About](/about/)
+          - [Scores](/scores/)
+          ==
+        </nav>
+      </header>
+    "
 
 
 RegexDictionaryReplacement: #.common.footer

@@ -15,34 +15,6 @@ OrdinaryDictionaryReplacement: #.score-table
           ; Net Score Per Game
       |:
         //
-          , P1
-          , 0
-          , 0
-          , nan
-          , 0
-          , nan
-        //
-          , P2
-          , 0
-          , 0
-          , nan
-          , 0
-          , nan
-        //
-          , P3
-          , 0
-          , 0
-          , nan
-          , 0
-          , nan
-        //
-          , P4
-          , 0
-          , 0
-          , nan
-          , 0
-          , nan
-        //
           , *
           , 0
           , 0

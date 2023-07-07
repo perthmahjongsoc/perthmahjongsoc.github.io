@@ -14,3 +14,11 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 --
 This be the home page of the Perth Mahjong Society.
 --
+
+
+## TODO List
+
+==
+- CSS
+- Favicon
+==

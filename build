@@ -9,5 +9,6 @@
 # - <https://github.com/conway-markdown/conway-markdown>
 
 python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt
+python3 ./res/scoring.py
 python3 ../conway-markdown/cmd.py
 python3 ./res/sitemap.py

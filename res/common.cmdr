@@ -17,3 +17,14 @@ OrdinaryDictionaryReplacement: #.common.header-nav
         ==
       </nav>
     </header>
+
+
+RegexDictionaryReplacement: #.common.footer
+- queue_position: BEFORE #boilerplate-properties
+* (?=</body>) -->
+    "
+      <footer>
+        Source: [<code>%cmd-name.cmd</code>](https://github.com/xxx/yyy/blob/master/%cmd-name.cmd).
+        Last modified: <time datetime="%date-modified">%date-modified</time>
+      </footer>
+    "

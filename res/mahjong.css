@@ -1,5 +1,5 @@
 :root{
-  --body-padding-horizontal: 1rem;
+  --body-padding-horizontal: 1.3rem;
   --header-nav-height: 3rem;
   --html-max-width: 44rem;
 }
@@ -12,7 +12,7 @@ body {
   margin: 0;
   overflow-wrap: break-word;
     /* allow breaking of long URLs */
-  padding: var(--header-nav-height) var(--body-padding-horizontal) 0.7rem;
+  padding: var(--header-nav-height) var(--body-padding-horizontal) 1.3rem;
 }
 
 
@@ -26,12 +26,14 @@ header {
 
 
 html {
+  background: #1d7;
   max-width: var(--html-max-width);
+  margin: 0 auto;
 }
 
 
 header > nav {
-  background: #bfb;
+  background: #def;
   display: inline-block;
   font-size: calc(0.5 * var(--header-nav-height));
   margin: 0;

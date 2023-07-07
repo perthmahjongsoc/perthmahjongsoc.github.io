@@ -10,3 +10,7 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 
 
 # Perth Mahjong Society
+
+--
+This be the home page of the Perth Mahjong Society.
+--

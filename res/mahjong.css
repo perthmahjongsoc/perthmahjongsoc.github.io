@@ -25,13 +25,6 @@ header {
 }
 
 
-html {
-  background: #1d7;
-  max-width: var(--html-max-width);
-  margin: 0 auto;
-}
-
-
 header > nav {
   background: #def;
   display: inline-block;
@@ -53,4 +46,11 @@ header > nav > ul {
 }
 header > nav > ul > li {
   padding: 0 0.7rem;
+}
+
+
+html {
+  background: #1d7;
+  max-width: var(--html-max-width);
+  margin: 0 auto;
 }

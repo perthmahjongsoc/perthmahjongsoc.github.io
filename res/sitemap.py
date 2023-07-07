@@ -4,6 +4,7 @@
 # sitemap.py
 
 Generate `sitemap.txt`.
+To be called by `./build` in the root directory.
 """
 
 import os

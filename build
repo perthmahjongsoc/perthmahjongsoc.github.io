@@ -5,8 +5,8 @@
 # Build the site, which is static.
 #
 # Assumes the following are checked out as siblings of the current repository:
-# - <https://github.com/conway-markdown/conway-markdown>
 # - <https://github.com/yawnoc/mahjong-scorer>
+# - <https://github.com/conway-markdown/conway-markdown>
 
 python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt
 python3 ../conway-markdown/cmd.py

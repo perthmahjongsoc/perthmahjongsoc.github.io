@@ -54,3 +54,16 @@ html {
   max-width: var(--html-max-width);
   margin: 0 auto;
 }
+
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+th {
+  background: #fed;
+}
+th, td {
+  border: 1px solid black;
+  padding: 0.4em;
+}

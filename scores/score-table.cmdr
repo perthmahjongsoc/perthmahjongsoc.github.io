@@ -3,6 +3,7 @@
 OrdinaryDictionaryReplacement: #.score-table
 - queue_position: BEFORE #tables
 * %score-table -->
+  "
     ''
       |^
         //
@@ -12,7 +13,6 @@ OrdinaryDictionaryReplacement: #.score-table
           ; win_fraction
           ; net_score
           ; net_score_per_game
-
       |:
         //
           , P1
@@ -21,7 +21,6 @@ OrdinaryDictionaryReplacement: #.score-table
           , nan
           , 0
           , nan
-
         //
           , P2
           , 0
@@ -29,7 +28,6 @@ OrdinaryDictionaryReplacement: #.score-table
           , nan
           , 0
           , nan
-
         //
           , P3
           , 0
@@ -37,7 +35,6 @@ OrdinaryDictionaryReplacement: #.score-table
           , nan
           , 0
           , nan
-
         //
           , P4
           , 0
@@ -45,7 +42,6 @@ OrdinaryDictionaryReplacement: #.score-table
           , nan
           , 0
           , nan
-
         //
           , *
           , 0
@@ -53,5 +49,5 @@ OrdinaryDictionaryReplacement: #.score-table
           , nan
           , 0
           , nan
-
     ''
+  "

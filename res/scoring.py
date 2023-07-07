@@ -11,6 +11,10 @@ but before conway-markdown generates `scores/index.html`.
 """
 
 
+def split(line):
+    return line.strip().split('\t')
+
+
 def main():
     with open('scores/scores.txt.tsv', 'r', encoding='utf-8') as tsv_file:
         lines = tsv_file.readlines()
@@ -26,17 +30,19 @@ def main():
         'OrdinaryDictionaryReplacement: #.score-table',
         '- queue_position: BEFORE #tables',
         '* %score-table -->',
+        '  "',
         "    ''",
         '      |^',
         '        //',
-        newline.join(f'          ; {header}' for header in header_line.split(tab)),
+        newline.join(f'          ; {header}' for header in split(header_line)),
         '      |:',
         newline.join(
             f'        //{newline}'
-            f'{newline.join(f"          , {data}" for data in body_line.split(tab))}'
+            f'{newline.join(f"          , {data}" for data in split(body_line))}'
             for body_line in body_lines
         ),
         "    ''",
+        '  "',
     ])
 
     with open('scores/score-table.cmdr', 'w', encoding='utf-8')as cmdr_file:

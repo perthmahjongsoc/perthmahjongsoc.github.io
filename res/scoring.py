@@ -15,6 +15,10 @@ def split(line):
     return line.strip().split('\t')
 
 
+def nicify(header):
+    return header.replace('_', ' ').title()
+
+
 def main():
     with open('scores/scores.txt.tsv', 'r', encoding='utf-8') as tsv_file:
         lines = tsv_file.readlines()
@@ -34,7 +38,7 @@ def main():
         "    ''",
         '      |^',
         '        //',
-        newline.join(f'          ; {header}' for header in split(header_line)),
+        newline.join(f'          ; {nicify(header)}' for header in split(header_line)),
         '      |:',
         newline.join(
             f'        //{newline}'

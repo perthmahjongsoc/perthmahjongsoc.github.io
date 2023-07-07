@@ -7,12 +7,12 @@ OrdinaryDictionaryReplacement: #.score-table
     ''
       |^
         //
-          ; name
-          ; game_count
-          ; win_count
-          ; win_fraction
-          ; net_score
-          ; net_score_per_game
+          ; Name
+          ; Game Count
+          ; Win Count
+          ; Win Fraction
+          ; Net Score
+          ; Net Score Per Game
       |:
         //
           , P1

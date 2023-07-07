@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# # build
+#
+# Build the site, which is static.
+#
+# Assumes the following have been checked out:
+# - <https://github.com/conway-markdown/conway-markdown>
+
+python3 ../conway-markdown/cmd.py

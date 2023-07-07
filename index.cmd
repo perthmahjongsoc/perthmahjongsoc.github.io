@@ -22,4 +22,5 @@ This be the home page of the Perth Mahjong Society.
 ==
 - Nicer colours
 - Favicon
+- Domain name in sitemap and source link
 ==

@@ -15,7 +15,7 @@ def split(line):
     return line.strip().split('\t')
 
 
-def nicify(header):
+def nicify_header(header):
     return header.replace('_', ' ').title()
 
 
@@ -37,7 +37,10 @@ def main():
         "    ''",
         '      |^',
         '        //',
-        newline.join(f'          ; {nicify(header)}' for header in split(header_line)),
+        newline.join(
+            f'          ; {nicify_header(header)}'
+            for header in split(header_line)
+        ),
         '      |:',
         newline.join(
             f'        //{newline}'

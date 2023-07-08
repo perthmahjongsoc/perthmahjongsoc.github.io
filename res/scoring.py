@@ -29,7 +29,7 @@ def main():
     with open('scores/scores.txt.tsv', 'r', encoding='utf-8') as tsv_file:
         lines = tsv_file.readlines()
 
-    header_line = lines[0]
+    head_line = lines[0]
     body_lines = lines[1:]
 
     newline = '\n'
@@ -45,7 +45,7 @@ def main():
         '        //',
         newline.join(
             f'          ; {nicify_header(header)}'
-            for header in split(header_line)
+            for header in split(head_line)
         ),
         '      |:',
         newline.join(

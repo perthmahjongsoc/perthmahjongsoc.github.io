@@ -23,15 +23,11 @@ header {
   top: 0;
   width: 100vw;
 }
-
-
 header > nav {
   background: #fed;
-  display: inline-block;
   font-size: calc(0.5 * var(--header-nav-height));
   margin: 0;
-  vertical-align: middle;
-  width: var(--html-max-width);
+  padding: 0;
 }
 header > nav > ul {
   align-items: center;

@@ -30,7 +30,8 @@ def main():
         lines = tsv_file.readlines()
 
     head_line = lines[0]
-    body_lines = lines[1:]
+    body_lines = lines[1:-1]
+    foot_line = lines[-1]
 
     newline = '\n'
     cmdr_content = newline.join([
@@ -43,12 +44,12 @@ def main():
         "    ''",
         '      |^',
         '        //',
-        newline.join(
+        *[
             f'          ; {nicify_header(header)}'
             for header in split(head_line)
-        ),
+        ],
         '      |:',
-        newline.join(
+        *[
             f'        //{newline}'
             f'''{
                 newline.join(
@@ -57,7 +58,13 @@ def main():
                 )
             }'''
             for body_line in body_lines
-        ),
+        ],
+        '      |_',
+        '        //',
+        *[
+            f'          , {nicify_data(data)}'
+            for data in split(foot_line)
+        ],
         "    ''",
         '  ||',
     ])

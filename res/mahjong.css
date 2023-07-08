@@ -63,9 +63,15 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-th {
+
+tfoot {
+  background: #eee;
+}
+
+thead {
   background: #def;
 }
+
 th, td {
   border: 1px solid black;
   padding: 0.4em;

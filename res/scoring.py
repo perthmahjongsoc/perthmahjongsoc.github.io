@@ -35,8 +35,13 @@ def main():
 
     newline = '\n'
     head_content = [
-        f'          ; {nicify_header(header)}'
-        for header in split(head_line)
+        f'        //{newline}'
+        f'''{
+            newline.join(
+                f"          ; {nicify_header(header)}"
+                for header in split(head_line)
+            )
+        }'''
     ]
     body_content = [
         f'        //{newline}'
@@ -49,8 +54,13 @@ def main():
         for body_line in body_lines
     ]
     foot_content = [
-        f'          , {nicify_data(data)}'
-        for data in split(foot_line)
+        f'        //{newline}'
+        f'''{
+            newline.join(
+                f"          , {nicify_data(data)}"
+                for data in split(foot_line)
+            )
+        }'''
     ]
 
     cmdr_content = newline.join([
@@ -62,12 +72,10 @@ def main():
         '  ||{.wide}',
         "    ''",
         '      |^',
-        '        //',
         *head_content,
         '      |:',
         *body_content,
         '      |_',
-        '        //',
         *foot_content,
         "    ''",
         '  ||',

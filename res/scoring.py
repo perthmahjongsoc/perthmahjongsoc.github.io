@@ -44,7 +44,12 @@ def main():
         '      |:',
         newline.join(
             f'        //{newline}'
-            f'{newline.join(f"          , {data}" for data in split(body_line))}'
+            f'''{
+                newline.join(
+                    f"          , {data}"
+                    for data in split(body_line)
+                )
+            }'''
             for body_line in body_lines
         ),
         "    ''",

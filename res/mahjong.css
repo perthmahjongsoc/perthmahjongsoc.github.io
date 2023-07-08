@@ -11,7 +11,6 @@ body {
   line-height: 1.4;
   margin: 0;
   overflow-wrap: break-word;
-    /* allow breaking of long URLs */
   padding: var(--header-nav-height) var(--body-padding-horizontal) 1.3rem;
 }
 

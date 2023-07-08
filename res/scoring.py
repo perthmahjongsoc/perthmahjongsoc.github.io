@@ -10,6 +10,8 @@ after mahjong-scorer generates `scores.txt.tsv`
 but before conway-markdown generates `scores/index.html`.
 """
 
+import re
+
 
 def split(line):
     return line.strip().split('\t')
@@ -17,6 +19,10 @@ def split(line):
 
 def nicify_header(header):
     return header.replace('_', ' ').title()
+
+
+def nicify_data(data):
+    return re.sub('^-', '−', data)  # U+2212 MINUS SIGN
 
 
 def main():
@@ -46,7 +52,7 @@ def main():
             f'        //{newline}'
             f'''{
                 newline.join(
-                    f"          , {data}"
+                    f"          , {nicify_data(data)}"
                     for data in split(body_line)
                 )
             }'''

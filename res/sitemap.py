@@ -18,7 +18,7 @@ def to_canonical_url(file_name):
     url = re.sub(r'\\', '/', url)
     url = re.sub('/index[.]html$', '/', url)
     url = re.sub('[.]html$', '', url)
-    url = re.sub('^[.]', 'https://example.com', url)  # TODO
+    url = re.sub('^[.]', 'https://perthmahjongsoc.github.io', url)
 
     return url
 

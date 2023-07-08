@@ -20,6 +20,6 @@ This be the home page of the Perth Mahjong Society.
 ==
 - Nicer colours
 - Favicon
-- Domain name in sitemap and source link
+- Domain name in source links
 - J's preferred alias in [About](/about/)
 ==

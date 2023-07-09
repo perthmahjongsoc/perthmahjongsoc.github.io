@@ -1,9 +1,10 @@
 name	game_count	win_count	win_fraction	net_score	net_score_per_game
 Felicia	4	1	0.25	128	32
-Conway	6	2	0.3333	128	21.3333
-Rowena	7	2	0.2857	144	20.5714
-Hwei	5	0	0	0	0
-Alex	7	2	0.2857	-160	-22.8571
-James	4	0	0	-112	-28
+Conway	15	4	0.2667	192	12.8
+Hwei	14	3	0.2143	64	4.5714
+Rowena	10	3	0.3	32	3.2
+James	12	1	0.0833	-64	-5.3333
+Elaine	10	1	0.1	-64	-6.4
+Alex	8	2	0.25	-160	-20
 Jackie	3	0	0	-128	-42.6667
-*	36	7	0.1944	0	0
+*	76	15	0.1974	0	0

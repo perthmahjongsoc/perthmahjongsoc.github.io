@@ -12,13 +12,21 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 # Perth Mahjong Society Scores
 
 
-## Compiled scores
+##{#compiled} Compiled scores
+
+--
+Compiled from [raw scores] using [`mahjongscore.py`].
+--
 
 %score-table
 
 
-## Raw scores
+##{#raw} Raw scores
 
 --
-See [`scores.txt`](scores.txt).
+See [`scores.txt`].
 --
+
+[`mahjongscore.py`]: https://github.com/yawnoc/mahjong-scorer
+[raw scores]: #raw
+[`scores.txt`]: scores.txt

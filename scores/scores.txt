@@ -6,3 +6,25 @@ B=1
 M=8
 R=full
 S=half
+
+2023-07-09
+
+
+Alex Rowena Conway Jackie
+- d 4 -
+
+Alex Rowena Conway James
+- 7 - -
+- - 7 -
+3 d - -
+
+Alex Rowena Hwei James
+3 - - d
+
+Alex Rowena Hwei Felicia
+d 7 - -
+- - - -
+
+Conway Hwei Jackie Felicia
+- - - -
+- - d 8

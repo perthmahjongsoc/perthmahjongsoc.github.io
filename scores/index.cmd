@@ -16,6 +16,7 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 
 --
 Compiled from [raw scores] using [`mahjongscore.py`].
+Rows sorted by Net Score Per Game.
 --
 
 %score-table

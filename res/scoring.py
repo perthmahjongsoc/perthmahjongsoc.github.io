@@ -60,6 +60,7 @@ def main():
         *foot_content,
         "    ''",
         '  ||',
+        '',
     ])
 
     with open('scores/score-table.cmdr', 'w', encoding='utf-8')as cmdr_file:

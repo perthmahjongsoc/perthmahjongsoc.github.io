@@ -3,18 +3,23 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> About
-* %date-modified --> 2023-07-08
+* %date-modified --> 2023-07-09
 
 %%%
 
 
 # About the Perth Mahjong Society
 
+--
+Credit to Felicia for progressing things
+from a group chat into an actual gathering.
+--
 
-## Established 2023-\<xx\>-\<xx\> (draft)
+
+## Established 2023-06-25
 
 --
-Whereas \<insert J's preferred alias\> thought it good
+Whereas certain people of Perth thought it good
 to assemble players of all abilities in a fine venue
 to play the game of Mahjong:
 --
@@ -24,5 +29,5 @@ to form a Society:
 --
 --
 Be the Perth Mahjong Society therefore established,
-this \<xx\> Day of \<xx\>, in the Year Two Thousand Twenty and Three.
+this Twenty-Fifth Day of June, in the Year Two Thousand Twenty and Three.
 --

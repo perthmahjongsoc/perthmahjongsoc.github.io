@@ -66,6 +66,7 @@ table {
 
 tfoot {
   background: #eee;
+  font-weight: bold;
 }
 
 thead {

@@ -11,10 +11,14 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 
 # Perth Mahjong Society Scores
 
---
-Raw score data lives in the text file [`scores.txt`](scores.txt),
-and is compiled into the table below by `/build`,
-which calls [`mahjongscore.py`](https://github.com/yawnoc/mahjong-scorer).
---
+
+## Compiled scores
 
 %score-table
+
+
+## Raw scores
+
+--
+See [`scores.txt`](scores.txt).
+--

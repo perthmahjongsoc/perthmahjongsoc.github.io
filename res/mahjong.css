@@ -69,10 +69,12 @@ tfoot {
   font-weight: bold;
 }
 
-thead {
+td {
+  background: white;
+}
+th {
   background: #def;
 }
-
 th, td {
   border: 1px solid black;
   padding: 0.4em;
@@ -81,4 +83,8 @@ th, td {
 
 .wide {
   overflow-x: auto;
+}
+.wide tr > :first-child {
+  position: sticky;
+  left: 0;
 }

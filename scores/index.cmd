@@ -1,5 +1,5 @@
 < /res/common.cmdr
-< /scores/scores-all-time.cmdr
+< /scores/all-time.cmdr
 
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
@@ -19,7 +19,7 @@ Compiled from [raw scores] using [`mahjongscore.py`].
 Rows are sorted by Net Score Per Game.
 --
 
-%table:scores-all-time
+%%score-table(all-time)
 
 
 ##{#raw} Raw scores

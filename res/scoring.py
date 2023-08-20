@@ -49,7 +49,7 @@ def tsv_to_cmdr(base_name):
         f'',
         f'OrdinaryDictionaryReplacement: #.{base_name}',
         f'- queue_position: BEFORE #divisions',
-        f'* %table:{base_name} -->',
+        f'* %%score-table({base_name}) -->',
         '  ||{.wide}',
         "    ''",
         '      |^',
@@ -68,8 +68,8 @@ def tsv_to_cmdr(base_name):
 
 
 def main():
-    tsv_to_cmdr(base_name='scores-all-time')
-    tsv_to_cmdr(base_name='scores-latest')
+    tsv_to_cmdr(base_name='all-time')
+    tsv_to_cmdr(base_name='latest')
 
 
 if __name__ == '__main__':

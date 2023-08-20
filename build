@@ -15,9 +15,9 @@ latest_date=$(grep -P '^[0-9]{4}-[0-9]{2}-[0-9]{2}' ./scores/scores.txt | tail -
 python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt
 python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt --from $latest_date
 
-python3 ./res/scoring.py
-mv "./scores/scores.txt.tsv" './scores/scores-all-time.tsv'
-mv "./scores/scores.txt --from ${latest_date}.tsv" './scores/scores-latest.tsv'
+mv "./scores/scores.txt.tsv" './scores/all-time.tsv'
+mv "./scores/scores.txt --from ${latest_date}.tsv" './scores/latest.tsv'
 
+python3 ./res/scoring.py
 python3 ../conway-markdown/cmd.py
 python3 ./res/sitemap.py

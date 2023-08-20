@@ -5,12 +5,14 @@
 
 Generate `scores/*.cmdr` used by `scores/index.cmd`.
 
-To be called by `./build` in the root directory,
+To be called with one positional argument (latest_date)
+by `./build` in the root directory,
 after mahjong-scorer generates `scores*.tsv`
 but before conway-markdown generates `scores/index.html`.
 """
 
 import re
+import sys
 
 
 def split(line):
@@ -25,7 +27,7 @@ def nicify_data(data):
     return re.sub('^-', '−', data)  # U+2212 MINUS SIGN
 
 
-def tsv_to_cmdr(base_name):
+def tsv_to_cmdr(base_name, latest_date):
     with open(f'./scores/{base_name}.tsv', 'r', encoding='utf-8') as tsv_file:
         lines = tsv_file.readlines()
 
@@ -60,6 +62,7 @@ def tsv_to_cmdr(base_name):
         *foot_content,
         "    ''",
         '  ||',
+        f'* %date-latest --> {latest_date}' if latest_date else '',
         '',
     ])
 
@@ -68,8 +71,8 @@ def tsv_to_cmdr(base_name):
 
 
 def main():
-    tsv_to_cmdr(base_name='all-time')
-    tsv_to_cmdr(base_name='latest')
+    tsv_to_cmdr(base_name='all-time', latest_date=None)
+    tsv_to_cmdr(base_name='latest', latest_date=sys.argv[1])
 
 
 if __name__ == '__main__':

@@ -18,6 +18,6 @@ python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt --from $latest_dat
 mv "./scores/scores.txt.tsv" './scores/all-time.tsv'
 mv "./scores/scores.txt --from ${latest_date}.tsv" './scores/latest.tsv'
 
-python3 ./res/scoring.py
+python3 ./res/scoring.py $latest_date
 python3 ../conway-markdown/cmd.py
 python3 ./res/sitemap.py

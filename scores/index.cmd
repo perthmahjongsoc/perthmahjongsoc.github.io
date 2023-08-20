@@ -20,11 +20,11 @@ Compiled from [raw scores] using [`mahjongscore.py`].
 Rows are sorted by Net Score Per Game.
 --
 
-### Latest meet (%date-latest)
+###{#latest} Latest meet (%date-latest)
 
 %%score-table(latest)
 
-### All time
+###{#all-time} All time
 
 %%score-table(all-time)
 

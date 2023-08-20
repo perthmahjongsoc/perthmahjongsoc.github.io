@@ -3,10 +3,10 @@
 """
 # scoring.py
 
-Generate `scores/score-table.cmdr` used by `scores/index.cmd`.
+Generate `scores/*.cmdr` used by `scores/index.cmd`.
 
 To be called by `./build` in the root directory,
-after mahjong-scorer generates `scores.txt.tsv`
+after mahjong-scorer generates `scores*.tsv`
 but before conway-markdown generates `scores/index.html`.
 """
 

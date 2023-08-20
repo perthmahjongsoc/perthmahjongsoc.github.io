@@ -19,7 +19,7 @@ Compiled from [raw scores] using [`mahjongscore.py`].
 Rows are sorted by Net Score Per Game.
 --
 
-%score-table
+%table:scores-all-time
 
 
 ##{#raw} Raw scores

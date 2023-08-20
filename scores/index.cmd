@@ -1,5 +1,5 @@
 < /res/common.cmdr
-< /scores/score-table.cmdr
+< /scores/scores-all-time.cmdr
 
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties

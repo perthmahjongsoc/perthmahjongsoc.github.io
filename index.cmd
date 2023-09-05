@@ -13,3 +13,6 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 --
 This be the home page of the Perth Mahjong Society.
 --
+||
+  ![Perth Mahjong Society Mascot: Willie Wagtail on Kangaroo Paw.](/res/wagtail.png)
+||

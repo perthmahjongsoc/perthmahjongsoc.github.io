@@ -61,6 +61,14 @@ html {
 }
 
 
+img {
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
 table {
   border-collapse: separate;
   border-spacing: 1px;

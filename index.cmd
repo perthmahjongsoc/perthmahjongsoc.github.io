@@ -3,7 +3,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Home
-* %date-modified --> 2023-07-09
+* %date-modified --> 2023-09-05
 
 %%%
 
@@ -13,11 +13,3 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 --
 This be the home page of the Perth Mahjong Society.
 --
-
-
-## TODO List
-
-==
-- Nicer colours
-- Favicon
-==

@@ -95,3 +95,28 @@ Jackie Conway Hwei Elayne
 - - - 5
 - - - -
 - 7 - d
+
+2023-10-01
+
+Jackie Conway Hwei Elayne
+5 d - -
+- 8 d -
+
+Jackie Conway Hwei Raymond
+d - - 4
+
+Elayne Conway Hwei Raymond
+- 5 d -
+
+Elayne Jackie Hwei Raymond
+- - - 4
+
+Elayne Conway Hwei Raymond
+- - 4 d
+- - - 4
+- d - 5
+- - - -
+
+Elayne Conway Hwei Jackie
+- d 7 -
+d 7 - -

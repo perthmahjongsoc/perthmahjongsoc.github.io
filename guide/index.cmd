@@ -75,19 +75,19 @@ The game should be played according to player consensus.
 ###{#melds} Melds
 
 ====
-- 順子 = Sequence, i.e. three consecutive tiles of the same numbered suit.
+- 順子 = Sequence: three consecutive tiles of the same numbered suit.
   ==
   - When completed by revealing after a discard from the previous player,
     this is called 上 _sh(e/)ung_ (going up, or onboarding).
   ==
 
-- 刻子 = Triplet, i.e. three of the same tile
+- 刻子 = Triplet: three of the same tile
   ==
   - When completed by revealing after a discard from another player,
     this is called 碰 _p(')ung_ (bumping).
   ==
 
-- 槓子 = Quadruplet, i.e. four of the same tile
+- 槓子 = Quadruplet: four of the same tile
   ==
   - When completed by revealing a completely concealed set of four,
     this is called 暗槓 _am~kong_ (concealed _kong_).
@@ -106,13 +106,23 @@ The game should be played according to player consensus.
 ====
 
 
-###{#position} Positions
-
-
 ##{#winning} Winning
 
 ###{#regular} Regular hands
 
-###{#special} Special hands
+--
+Regular winning hands consist of four [melds] plus a pair called 眼 (eyes).
+By itself, such a win is worth zero 番 _f(a/)n_ (points).
+To meet the conventional threshold of three 番 _f(a/)n_ for a win,
+you need to go for one of the patterns below, go for an [irregular hand],
+or rely on [bonuses].
+--
+
+###{#irregular} Irregular hands
 
 ###{#bonuses} Bonuses
+
+
+[melds]: #melds
+[irregular hand]: #irregular
+[bonuses]: #bonuses

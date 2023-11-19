@@ -11,9 +11,29 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 # Guide
 
 --
-This reference guide is based on Hong Kong gameplay.
+This (incomprehensive) reference guide is based on Hong Kong gameplay.
 --
 --
 There is no such thing as an offical version of mahjong.
 The game should be played according to player consensus.
 --
+
+
+##{#concepts} Concepts
+
+###{#suits} Suits
+
+###{#melds} Melds
+
+###{#meld-actions} Meld actions
+
+###{#position} Positions
+
+
+##{#winning} Winning
+
+###{#regular} Regular hands
+
+###{#special} Special hands
+
+###{#bonuses} Bonuses

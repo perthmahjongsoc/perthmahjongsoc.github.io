@@ -89,6 +89,10 @@ th, td {
   padding: 0.4em;
 }
 
+ul ul {
+  margin-bottom: 1em;
+}
+
 
 .permalink {
   background-image: url(permalink.svg);

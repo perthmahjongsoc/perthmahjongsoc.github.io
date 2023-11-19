@@ -21,6 +21,7 @@ The game should be played according to player consensus.
 
 ##{#concepts} Concepts
 
+
 ###{#tiles} Tiles
 
 #### Numbered suits
@@ -73,7 +74,37 @@ The game should be played according to player consensus.
 
 ###{#melds} Melds
 
-###{#meld-actions} Meld actions
+====
+- 順子 = Sequence, i.e. three consecutive tiles of the same numbered suit.
+  ==
+  - When completed by revealing after a discard from the previous player,
+    this is called 上 _sh(e/)ung_ (going up, or onboarding).
+  ==
+
+- 刻子 = Triplet, i.e. three of the same tile
+  ==
+  - When completed by revealing after a discard from another player,
+    this is called 碰 _p(')ung_ (bumping).
+  ==
+
+- 槓子 = Quadruplet, i.e. four of the same tile
+  ==
+  - When completed by revealing a completely concealed set of four,
+    this is called 暗槓 _am~kong_ (concealed _kong_).
+    --
+    A concealed _kong_ cannot be robbed for a win,
+    except when the win is a 十三幺 (Thirteen Youngests).
+    --
+
+  - When completed by revealing after a discard from another player,
+    or by appending to an existing 碰 _p(')ung_,
+    this is called 明槓 _ming~kong_ (transparent _kong_).
+    --
+    A transparent _kong_ can be robbed for a win.
+    --
+  ==
+====
+
 
 ###{#position} Positions
 

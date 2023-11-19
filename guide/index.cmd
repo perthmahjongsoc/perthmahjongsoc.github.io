@@ -220,20 +220,20 @@ and/or rely on [bonuses].
 ====
 - (+1) 門風 = __Gate Wind__ [seat wind]
   --
-  A (triplet or quadruplet) meld in a wind tile matching the player's position
-  (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys).
+  A (triplet or quadruplet) meld in a wind tile matching the player's position.
+  Not counted for 小四喜／大四喜 (Lesser Three Joys / Greater Three Joys).
   --
 
 - (+1) 圈風 = __Round Wind__ [table wind]
   --
-  A (triplet or quadruplet) meld in a wind tile matching prevailing table wind
-  (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys).
+  A (triplet or quadruplet) meld in a wind tile matching prevailing table wind.
+  Not counted for 小四喜／大四喜 (Lesser Three Joys / Greater Three Joys).
   --
 
 - (+1) [dragon meld]
   --
-  A (triplet or quadruplet) meld in a dragon tile
-  (not counted for 小三元／大三元 = Lesser Three Duxes / Greater Three Duxes).
+  A (triplet or quadruplet) meld in a dragon tile.
+  Not counted for 小三元／大三元 (Lesser Three Duxes / Greater Three Duxes).
   --
 
 - (+1) 槓 = __|_Kong___ (OPTIONAL)

@@ -27,17 +27,17 @@ The game should be played according to player consensus.
 #### Numbered suits
 
 ======
-- 筒子 _t(')ung~tsz'_ = Tubes [circles, balls]
+- 筒子 = __Tubes__ [circles, balls]
   ====
   - [one through nine]
   ====
 
-- 索子 _sok~tsz'_ = Rods [bamboos, sticks]
+- 索子 = __Rods__ [bamboos, sticks]
   ====
   - [one through nine]
   ====
 
-- 萬子 _m(a/)n~tsz'_ = Myriads [characters]
+- 萬子 = __Myriads__ [characters, ten-thousands]
   ====
   - [one through nine]
   ====
@@ -46,9 +46,9 @@ The game should be played according to player consensus.
 #### Unnumbered suits
 
 ======
-- 番子 _f(a/)n~tsz'_ = Honours
+- 番子 = __Honours__
   ====
-  - 四風／四喜 = Four Winds / Four Joys [directions]
+  - 四風／四喜 = __Four Winds / Four Joys__ [directions]
     ==
     - 東 = East
     - 南 = South
@@ -56,17 +56,30 @@ The game should be played according to player consensus.
     - 北 = North
     ==
 
-  - 三元 = Three Duxes [dragons]
+  - 三元 = __Three Duxes__ [dragons]
     ==
     - 紅中 = Red-Centre [red]
     - 發財 = Prosper-Wealth [green]
     - 白板 = White-Board [white]
     ==
+  ====
 
-  - 花 = Flowers
+- 花 = __Flowers__ (OPTIONAL)
+  ====
+  - 四花 = Four Flora
     ==
-    - 四花 = Four Flora
-    - 四季 = Four Seasons
+    - 梅 = Plum
+    - 蘭 = Orchid
+    - 菊 = Chrysanthemum
+    - 竹 = Bamboo
+    ==
+
+  - 四季 = Four Seasons
+    ==
+    - 春 = Spring
+    - 夏 = Summer
+    - 秋 = Autumn
+    - 冬 = Winter
     ==
   ====
 ======
@@ -75,22 +88,31 @@ The game should be played according to player consensus.
 ###{#melds} Melds
 
 ====
-- 順子 = Sequence: three consecutive tiles of the same numbered suit.
+- 順子 = __Sequence__
+  --
+  Three consecutive tiles of the same numbered suit.
+  --
   ==
   - When completed by revealing after a discard from the previous player,
-    this is called 上 _sh(e/)ung_ (going up, or onboarding).
+    this is called 上 __|_sh(e/)ung___ (going up, or onboarding).
   ==
 
-- 刻子 = Triplet: three of the same tile
+- 刻子 = __Triplet__
+  --
+  Three of the same tile.
+  --
   ==
   - When completed by revealing after a discard from another player,
-    this is called 碰 _p(')ung_ (bumping).
+    this is called 碰 __|_p(')ung___ (bumping).
   ==
 
-- 槓子 = Quadruplet: four of the same tile
+- 槓子 = __Quadruplet__
+  --
+  Four of the same tile, called a __|_kong___.
+  --
   ==
   - When completed by revealing a completely concealed set of four,
-    this is called 暗槓 _am~kong_ (concealed _kong_).
+    this is called 暗槓 __|_am~kong___ (concealed _kong_).
     --
     A concealed _kong_ cannot be robbed for a win,
     except when the win is a 十三幺 (Thirteen Littles).
@@ -98,7 +120,7 @@ The game should be played according to player consensus.
 
   - When completed by revealing after a discard from another player,
     or by appending to an existing 碰 _p(')ung_,
-    this is called 明槓 _ming~kong_ (transparent _kong_).
+    this is called 明槓 __|_ming~kong___ (transparent _kong_).
     --
     A transparent _kong_ can be robbed for a win.
     --
@@ -109,15 +131,15 @@ The game should be played according to player consensus.
 ##{#winning} Winning
 
 --
-The conventional threshold for a hand to be winning is a minimum of
-three~_f(a/)n_ (番, or points).
+The conventional threshold for a hand to be winning is a
+__minimum of three~|_f(a/)n___ (番, or points).
 --
 
 ###{#regular} Regular hands
 
 --
 Regular winning hands consist of
-__four [melds] plus a pair__ (眼 _ng(a/)n_ = eyes).
+__four [melds] plus a pair__ called 眼 _ng(a/)n_ (__eyes__).
 By itself, such a win is worth zero~_f(a/)n_.
 To raise the number of _f(a/)n_, you need to
 go for one of the patterns below or an [irregular hand],
@@ -125,31 +147,52 @@ and/or rely on [bonuses].
 --
 
 ====
-- (+1) 平糊 = Level Win:
-    all melds are sequences
+- (0) 雞糊 = __Chicken Win__
+  --
+  The default pattern: four melds plus a pair.
+  --
 
-- (+3) 對對糊 = All-Matches Win:
-    all melds are triplets or quadruplets
+- (+1) 平糊 = __Common Win__
+  --
+  All melds are sequences.
+  --
 
-- (+3) 混一色 = Mixed-One-Suit:
-    all tiles are one numbered suit, plus honours
+- (+3) 對對糊 = __All-Matches Win__
+  --
+  All melds are triplets or quadruplets.
+  --
 
-- (+5) 小三元 = Lesser Three Duxes:
-    (triplet or quadruplet) melds in two of the three dragons,
-    plus eyes in the remaining dragon
+- (+3) 混一色 = __Mixed-One-Suit__
+  --
+  All tiles are one numbered suit, plus honours.
+  --
 
-- (+6) 小四喜 = Lesser Four Joys:
-    (triplet or quadruplet) melds in three of the four winds,
-    plus eyes in the remaining wind
+- (+5) 小三元 = __Lesser Three Duxes__
+  --
+  (Triplet or quadruplet) melds in two of the three dragons,
+  plus eyes in the remaining dragon.
+  --
 
-- (+7) 清一色 = Pure-One-Suit:
-    all tiles are one numbered suit (no honours except flowers)
+- (+6) 小四喜 = __Lesser Four Joys__
+  --
+  (Triplet or quadruplet) melds in three of the four winds,
+  plus eyes in the remaining wind.
+  --
 
-- (+8) 大三元 = Greater Three Duxes:
-    (triplet or quadruplet) melds in all three dragons
+- (+7) 清一色 = __Pure-One-Suit__
+  --
+  All tiles are one numbered suit.
+  --
 
-- (13 = Maximum) 大四喜 = Greater Four Joys:
-    (triplet or quadruplet) melds in all four winds
+- (+8) 大三元 = __Greater Three Duxes__
+  --
+  (Triplet or quadruplet) melds in all three dragons.
+  --
+
+- (13 = Maximum) 大四喜 = __Greater Four Joys__
+  --
+  (Triplet or quadruplet) melds in all four winds.
+  --
 ====
 
 ###{#irregular} Irregular hands

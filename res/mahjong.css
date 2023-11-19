@@ -89,6 +89,9 @@ th, td {
   padding: 0.4em;
 }
 
+ul p {
+  margin-top: 0.3em;
+}
 ul ul {
   margin: 0.5em 0 1em;
 }

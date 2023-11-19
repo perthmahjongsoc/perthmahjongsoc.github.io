@@ -108,7 +108,7 @@ The game should be played according to player consensus.
 
 - 槓子 = __Quadruplet__
   --
-  Four of the same tile, called a __|_kong___.
+  Four of the same tile, called a 槓 __|_kong___.
   --
   ==
   - When completed by revealing a completely concealed set of four,
@@ -134,6 +134,7 @@ The game should be played according to player consensus.
 The conventional threshold for a hand to be winning is a
 __minimum of three~|_f(a/)n___ (番, or points).
 --
+
 
 ###{#regular} Regular hands
 
@@ -195,65 +196,99 @@ and/or rely on [bonuses].
   --
 ====
 
+
 ###{#irregular} Irregular hands
 
 ====
-- (+4) 七對 = Seven Pairs (OPTIONAL):
-    seven distinct pairs
+- (+4) 七對 = __Seven Pairs__ (OPTIONAL)
+  --
+  Seven distinct pairs.
+  --
 
-- (13 = Maximum) 十三幺 = Thirteen Littles:
-    one & nine of each numbered suit,
-    plus each of the four winds,
-    plus each of the three dragons,
-    plus a duplicate
+- (13 = Maximum) 十三幺 = __Thirteen Littles__
+  --
+  One & nine of each numbered suit,
+  plus each of the four winds,
+  plus each of the three dragons,
+  plus a duplicate.
+  --
 ====
+
 
 ###{#bonuses} Bonuses
 
 ====
-- (+1) 門風 = Gate Wind:
-    a (triplet or quadruplet) meld in a wind tile matching the player's position
-    (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys)
+- (+1) 門風 = __Gate Wind__ [seat wind]
+  --
+  A (triplet or quadruplet) meld in a wind tile matching the player's position
+  (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys).
+  --
 
-- (+1) 圈風 = Round Wind:
-    a (triplet or quadruplet) meld in a wind tile matching prevailing table wind
-    (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys)
+- (+1) 圈風 = __Round Wind__ [table wind]
+  --
+  A (triplet or quadruplet) meld in a wind tile matching prevailing table wind
+  (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys).
+  --
 
-- (+1) [Dragon Meld]:
-    a (triplet or quadruplet) meld in a dragon tile
-    (not counted for 小三元／大三元 = Lesser Three Duxes / Greater Three Duxes)
+- (+1) [dragon meld]
+  --
+  A (triplet or quadruplet) meld in a dragon tile
+  (not counted for 小三元／大三元 = Lesser Three Duxes / Greater Three Duxes).
+  --
 
-- (+1) 槓 = _Kong_ (OPTIONAL):
-    a quadruplet meld
+- (+1) 槓 = __|_Kong___ (OPTIONAL)
+  --
+  A quadruplet meld.
+  (Omitting this bonus may lead to more strategic play,
+  in the form of refusing a _kong_ to keep an in-hand triple concealed.)
+  --
 
-- (+1) 自摸 = Self-Drawn:
-    winning tile is drawn from the wall, not discarded
+- (+1) 自摸 = __Self-Drawn__
+  --
+  Winning tile is drawn from the wall, not discarded.
+  --
 
-- (+1) 無花 = Without Flowers:
-    no flowers (only if the game is played with flowers)
+- (+1) 無花 = __Without Flowers__
+  --
+  No flowers (in games played with flowers).
+  --
 
-- (+1) 正花 = Correct Flower:
-    a flower matching the player's position
+- (+1) 正花 = __Correct Flower__
+  --
+  A flower matching the player's position (in games played with flowers).
+  --
 
-- (+1) 門前清 = Gate-Front Clear:
-    no revealed melds prior to win
+- (+1) 門前清 = __Gate-Front Clear__
+  --
+  No revealed melds prior to win.
+  --
 
-- (+1) 搶槓 = Robbed _kong_:
-    winning tile is revealed when completing a transparent _kong_
-    (or even a concealed _kong_ if the win is 十三幺 (Thirteen Littles))
+- (+1) 搶槓 = __Robbed _Kong___
+  --
+  Winning tile is revealed when completing a transparent _kong_
+  (or even a concealed _kong_ if the win is 十三幺 (Thirteen Littles)).
+  --
 
-- (+1) 槓上自摸 = Self-Drawn Atop _Kong_:
-    winning tile is drawn as the compensating tile after a _kong_
-    (accumulates with consecutive _kong_s)
+- (+1) 槓上自摸 = __Self-Drawn Atop _Kong___
+  --
+  Winning tile is drawn as the compensating tile after a _kong_
+  (accumulates with consecutive _kong_s).
+  --
 
-- (+1) 海底撈月 = Sea-Bottom Scooped Moon:
-    winning tile is drawn as the final tile of the wall
+- (+1) 海底撈月 = __Sea-Bottom Scooped Moon__
+  --
+  Winning tile is drawn as the final tile of the wall.
+  --
 
-- (13 = Maximum) 天糊 = Heavenly Win:
-    dealer wins with initial hand
+- (13 = Maximum) 天糊 = __Heavenly Win__
+  --
+  Dealer wins with initial hand.
+  --
 
-- (13 = Maximum) 地糊 = Earthly Win:
-    non-dealer wins on dealer's first discard
+- (13 = Maximum) 地糊 = __Earthly Win__
+  --
+  Non-dealer wins on dealer's first discard.
+  --
 ====
 
 

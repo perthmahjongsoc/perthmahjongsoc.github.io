@@ -93,7 +93,7 @@ The game should be played according to player consensus.
     this is called 暗槓 _am~kong_ (concealed _kong_).
     --
     A concealed _kong_ cannot be robbed for a win,
-    except when the win is a 十三幺 (Thirteen Youngests).
+    except when the win is a 十三幺 (Thirteen Littles).
     --
 
   - When completed by revealing after a discard from another player,
@@ -108,19 +108,110 @@ The game should be played according to player consensus.
 
 ##{#winning} Winning
 
+--
+The conventional threshold for a hand to be winning is a minimum of
+three~_f(a/)n_ (番, or points).
+--
+
 ###{#regular} Regular hands
 
 --
-Regular winning hands consist of four [melds] plus a pair called 眼 (eyes).
-By itself, such a win is worth zero 番 _f(a/)n_ (points).
-To meet the conventional threshold of three 番 _f(a/)n_ for a win,
-you need to go for one of the patterns below, go for an [irregular hand],
-or rely on [bonuses].
+Regular winning hands consist of
+__four [melds] plus a pair__ (眼 _ng(a/)n_ = eyes).
+By itself, such a win is worth zero~_f(a/)n_.
+To raise the number of _f(a/)n_, you need to
+go for one of the patterns below or an [irregular hand],
+and/or rely on [bonuses].
 --
+
+====
+- (+1) 平糊 = Level Win:
+    all melds are sequences
+
+- (+3) 對對糊 = All-Matches Win:
+    all melds are triplets or quadruplets
+
+- (+3) 混一色 = Mixed-One-Suit:
+    all tiles are one numbered suit, plus honours
+
+- (+5) 小三元 = Lesser Three Duxes:
+    (triplet or quadruplet) melds in two of the three dragons,
+    plus eyes in the remaining dragon
+
+- (+6) 小四喜 = Lesser Four Joys:
+    (triplet or quadruplet) melds in three of the four winds,
+    plus eyes in the remaining wind
+
+- (+7) 清一色 = Pure-One-Suit:
+    all tiles are one numbered suit (no honours except flowers)
+
+- (+8) 大三元 = Greater Three Duxes:
+    (triplet or quadruplet) melds in all three dragons
+
+- (13 = Maximum) 大四喜 = Greater Four Joys:
+    (triplet or quadruplet) melds in all four winds
+====
 
 ###{#irregular} Irregular hands
 
+====
+- (+4) 七對 = Seven Pairs (OPTIONAL):
+    seven distinct pairs
+
+- (13 = Maximum) 十三幺 = Thirteen Littles:
+    one & nine of each numbered suit,
+    plus each of the four winds,
+    plus each of the three dragons,
+    plus a duplicate
+====
+
 ###{#bonuses} Bonuses
+
+====
+- (+1) 門風 = Gate Wind:
+    a (triplet or quadruplet) meld in a wind tile matching the player's position
+    (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys)
+
+- (+1) 圈風 = Round Wind:
+    a (triplet or quadruplet) meld in a wind tile matching prevailing table wind
+    (not counted for 小四喜／大四喜 = Lesser Three Joys / Greater Three Joys)
+
+- (+1) [Dragon Meld]:
+    a (triplet or quadruplet) meld in a dragon tile
+    (not counted for 小三元／大三元 = Lesser Three Duxes / Greater Three Duxes)
+
+- (+1) 槓 = _Kong_ (OPTIONAL):
+    a quadruplet meld
+
+- (+1) 自摸 = Self-Drawn:
+    winning tile is drawn from the wall, not discarded
+
+- (+1) 無花 = Without Flowers:
+    no flowers (only if the game is played with flowers)
+
+- (+1) 正花 = Correct Flower:
+    a flower matching the player's position
+
+- (+1) 門前清 = Gate-Front Clear:
+    no revealed melds prior to win
+
+- (+1) 搶槓 = Robbed _kong_:
+    winning tile is revealed when completing a transparent _kong_
+    (or even a concealed _kong_ if the win is 十三幺 (Thirteen Littles))
+
+- (+1) 槓上自摸 = Self-Drawn Atop _Kong_:
+    winning tile is drawn as the compensating tile after a _kong_
+    (accumulates with consecutive _kong_s)
+
+- (+1) 海底撈月 = Sea-Bottom Scooped Moon:
+    winning tile is drawn as the final tile of the wall
+
+- (13 = Maximum) 天糊 = Heavenly Win:
+    dealer wins with initial hand
+
+- (13 = Maximum) 地糊 = Earthly Win:
+    non-dealer wins on dealer's first discard
+====
 
 
 [melds]: #melds

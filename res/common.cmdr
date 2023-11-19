@@ -20,8 +20,9 @@ RegexDictionaryReplacement: #.common.header-nav
         <nav>
           ==
           - [Home](/)
-          - [About](/about/)
+          - [Guide](/guide/)
           - [Scores](/scores/)
+          - [About](/about/)
           ==
         </nav>
       </header>

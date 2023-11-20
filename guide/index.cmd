@@ -201,6 +201,11 @@ and/or rely on [bonuses].
   --
   (Triplet or quadruplet) melds in all four winds.
   --
+
+- (13 = Maximum) 十八羅漢 = __Eighteen Lohans__
+  --
+  All four melds are quadruplets.
+  --
 ====
 
 

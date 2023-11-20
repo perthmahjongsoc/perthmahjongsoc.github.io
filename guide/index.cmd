@@ -27,6 +27,10 @@ being modified (through the use of [SVGO])
 from [SVG Oblique illustrations of Mahjong tiles][svg-tiles]
 by [Cangjie6] and others.
 --
+--
+As fallback, characters from the [Mahjong Tiles Unicode block]
+(U+1F000 through U+1F02C) are used for the alt text.
+--
 
 ###{#numbered-suits} Numbered suits
 
@@ -330,6 +334,7 @@ in particular the [Details section].
 [SVGO]: https://github.com/svg/svgo
 [svg-tiles]: https://commons.wikimedia.org/wiki/Category:SVG_Oblique_illustrations_of_Mahjong_tiles
 [Cangjie6]: https://commons.wikimedia.org/wiki/User:Cangjie6
+[Mahjong Tiles Unicode block]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
 [melds]: #melds
 [irregular hand]: #irregular
 [bonuses]: #bonuses

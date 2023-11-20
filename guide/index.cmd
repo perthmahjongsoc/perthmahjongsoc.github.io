@@ -3,7 +3,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Guide
-* %date-modified --> 2023-11-19
+* %date-modified --> 2023-11-20
 
 %%%
 
@@ -29,17 +29,17 @@ The game should be played according to player consensus.
 ======
 - 筒子 = __Tubes__ [circles, balls]
   ====
-  - [one through nine]
+  - [1t][2t][3t][4t][5t][6t][7t][8t][9t] = [one through nine]
   ====
 
 - 索子 = __Rods__ [bamboos, sticks]
   ====
-  - [one through nine]
+  - [1s][2s][3s][4s][5s][6s][7s][8s][9s] = [one through nine]
   ====
 
 - 萬子 = __Myriads__ [characters, ten-thousands]
   ====
-  - [one through nine]
+  - [1m][2m][3m][4m][5m][6m][7m][8m][9m] = [one through nine]
   ====
 ======
 
@@ -50,17 +50,17 @@ The game should be played according to player consensus.
   ====
   - 四風／四喜 = __Four Winds / Four Joys__ [directions]
     ==
-    - 東 = East
-    - 南 = South
-    - 西 = West
-    - 北 = North
+    - [tf] 東 = East
+    - [nf] 南 = South
+    - [sf] 西 = West
+    - [pf] 北 = North
     ==
 
   - 三元 = __Three Duxes__ [dragons]
     ==
-    - 紅中 = Red-Centre [red]
-    - 發財 = Prosper-Wealth [green]
-    - 白板 = White-Board [white]
+    - [hc] 紅中 = Red-Centre [red]
+    - [ft] 發財 = Prosper-Wealth [green]
+    - [pp] 白板 = White-Board [white]
     ==
   ====
 
@@ -68,18 +68,18 @@ The game should be played according to player consensus.
   ====
   - 四花 = Four Flora
     ==
-    - 梅 = Plum
-    - 蘭 = Orchid
-    - 菊 = Chrysanthemum
-    - 竹 = Bamboo
+    - [1f] 梅 = Plum
+    - [2f] 蘭 = Orchid
+    - [3f] 菊 = Chrysanthemum
+    - [4f] 竹 = Bamboo
     ==
 
   - 四季 = Four Seasons
     ==
-    - 春 = Spring
-    - 夏 = Summer
-    - 秋 = Autumn
-    - 冬 = Winter
+    - [1k] 春 = Spring
+    - [2k] 夏 = Summer
+    - [3k] 秋 = Autumn
+    - [4k] 冬 = Winter
     ==
   ====
 ======

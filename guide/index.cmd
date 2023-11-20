@@ -24,7 +24,7 @@ The game should be played according to player consensus.
 ###{#numbered-suits} Numbered suits
 
 ======
-- 筒子 = __Tubes__ [circles, balls]
+- 筒子 = __Tubes__ [circles, dots, balls]
   ====
   - [1t][2t][3t][4t][5t][6t][7t][8t][9t] = [one through nine]
   ====

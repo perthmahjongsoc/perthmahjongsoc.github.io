@@ -95,6 +95,24 @@ OrdinaryDictionaryReplacement: #.mahjong-tiles
 * [8m] --> $🀎
 * [9m] --> $🀏
 #
+* [tf] --> $🀀
+* [nf] --> $🀁
+* [sf] --> $🀂
+* [pf] --> $🀃
+* [hc] --> $🀄
+* [ft] --> $🀅
+* [pp] --> $🀆
+#
+* [1f] --> $🀢
+* [2f] --> $🀣
+* [3f] --> $🀥
+* [4f] --> $🀤
+#
+* [1k] --> $🀦
+* [2k] --> $🀧
+* [3k] --> $🀨
+* [4k] --> $🀩
+#
 - concluding_replacements: #.mahjong-unicode-to-image
 
 

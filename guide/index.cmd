@@ -162,6 +162,7 @@ and/or rely on [bonuses].
 - (+3) 對對糊 = __All-Matches Win__
   --
   All melds are triplets or quadruplets.
+  Not counted for 清一色番子 (Pure-One-Suit Honours).
   --
 
 - (+3) 混一色 = __Mixed-One-Suit__
@@ -189,6 +190,11 @@ and/or rely on [bonuses].
 - (+8) 大三元 = __Greater Three Duxes__
   --
   (Triplet or quadruplet) melds in all three dragons.
+  --
+
+- (+10) 清一色番子 = __Pure-One-Suit Honours__
+  --
+  All tiles are honours.
   --
 
 - (13 = Maximum) 大四喜 = __Greater Four Joys__

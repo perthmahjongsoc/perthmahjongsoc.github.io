@@ -53,7 +53,7 @@ RegexDictionaryReplacement: #.heading-permalinks
 
 
 RegexDictionaryReplacement: #.mahjong-unicode-to-image
-* [$] (?P<tile> [🀀-🀫] ) --> ![\g<tile>](/res/tiles/\g<tile>.svg)
+* [$] (?P<tile> [🀀-🀫] ) --> ![\g<tile>]{.tile}(/res/tiles/\g<tile>.svg)
 
 
 OrdinaryDictionaryReplacement: #.mahjong-tiles

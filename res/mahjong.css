@@ -13,6 +13,9 @@ body {
   overflow-wrap: break-word;
   padding: var(--header-nav-height) var(--body-padding-horizontal) 1.3rem;
 }
+body > ul > li {
+  margin-bottom: 2.7em;
+}
 
 
 header {
@@ -89,6 +92,13 @@ th, td {
   padding: 0.4em;
 }
 
+ul p {
+  margin-top: 0.3em;
+}
+ul ul {
+  margin: 0.5em 0 1em;
+}
+
 
 .permalink {
   background-image: url(permalink.svg);
@@ -96,6 +106,10 @@ th, td {
   background-repeat: no-repeat;
   background-size: 1em;
   padding-left: 1.5em;
+}
+
+.tile {
+  height: 2.5em;
 }
 
 .wide {

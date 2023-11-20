@@ -20,8 +20,9 @@ RegexDictionaryReplacement: #.common.header-nav
         <nav>
           ==
           - [Home](/)
-          - [About](/about/)
+          - [Guide](/guide/)
           - [Scores](/scores/)
+          - [About](/about/)
           ==
         </nav>
       </header>
@@ -49,3 +50,139 @@ RegexDictionaryReplacement: #.heading-permalinks
   )
     -->
   \g<opening_hashes_etc> []{.permalink aria-label=Permalink}(#\g<id_>)
+
+
+RegexDictionaryReplacement: #.mahjong-unicode-to-image
+* [$] (?P<tile> [🀀-🀫] ) --> ![\g<tile>]{.tile}(/res/tiles/\g<tile>.svg)
+
+
+OrdinaryDictionaryReplacement: #.mahjong-tiles
+- queue_position: BEFORE #backslash-escapes
+#
+# $ python3
+# >>> ''.join(chr(n) for n in range(0x1F000, 0x1F02C))
+# '🀀🀁🀂🀃🀄🀅🀆🀇🀈🀉🀊🀋🀌🀍🀎🀏🀐🀑🀒🀓🀔🀕🀖🀗🀘🀙🀚🀛🀜🀝🀞🀟🀠🀡🀢🀣🀤🀥🀦🀧🀨🀩🀪🀫'
+#
+# See <https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)>.
+#
+* [1t] --> $🀙
+* [2t] --> $🀚
+* [3t] --> $🀛
+* [4t] --> $🀜
+* [5t] --> $🀝
+* [6t] --> $🀞
+* [7t] --> $🀟
+* [8t] --> $🀠
+* [9t] --> $🀡
+#
+* [1s] --> $🀐
+* [2s] --> $🀑
+* [3s] --> $🀒
+* [4s] --> $🀓
+* [5s] --> $🀔
+* [6s] --> $🀕
+* [7s] --> $🀖
+* [8s] --> $🀗
+* [9s] --> $🀘
+#
+* [1m] --> $🀇
+* [2m] --> $🀈
+* [3m] --> $🀉
+* [4m] --> $🀊
+* [5m] --> $🀋
+* [6m] --> $🀌
+* [7m] --> $🀍
+* [8m] --> $🀎
+* [9m] --> $🀏
+#
+* [tf] --> $🀀
+* [nf] --> $🀁
+* [sf] --> $🀂
+* [pf] --> $🀃
+* [hc] --> $🀄
+* [ft] --> $🀅
+* [pp] --> $🀆
+#
+* [1f] --> $🀢
+* [2f] --> $🀣
+* [3f] --> $🀥
+* [4f] --> $🀤
+#
+* [1k] --> $🀦
+* [2k] --> $🀧
+* [3k] --> $🀨
+* [4k] --> $🀩
+#
+- concluding_replacements: #.mahjong-unicode-to-image
+
+
+OrdinaryDictionaryReplacement: #.syntax.diacritics
+- queue_position: BEFORE #backslash-escapes
+#
+# U+00C1 LATIN CAPITAL LETTER A WITH ACUTE
+*   (A/) --> Á
+#
+# U+00C9 LATIN CAPITAL LETTER E WITH ACUTE
+*   (E/) --> É
+#
+# U+00CD LATIN CAPITAL LETTER I WITH ACUTE
+*   (I/) --> Í
+#
+# U+00D2 LATIN CAPITAL LETTER O WITH GRAVE
+*   (O\) --> Ò
+#
+# U+00DA LATIN CAPITAL LETTER U WITH ACUTE
+*   (U/) --> Ú
+#
+# U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS
+*   (U") --> Ü
+#
+# U+00E1 LATIN SMALL LETTER A WITH ACUTE
+*   (a/) --> á
+#
+# U+00E9 LATIN SMALL LETTER E WITH ACUTE
+*   (e/) --> é
+#
+# U+00ED LATIN SMALL LETTER I WITH ACUTE
+*   (i/) --> í
+#
+# U+00F2 LATIN SMALL LETTER O WITH GRAVE
+*   (o\) --> ò
+#
+# U+00F3 LATIN SMALL LETTER O WITH ACUTE
+*   (o/) --> ó
+#
+# U+00F9 LATIN SMALL LETTER U WITH GRAVE
+*   (u\) --> ù
+#
+# U+00FA LATIN SMALL LETTER U WITH ACUTE
+*   (u/) --> ú
+#
+# U+00FC LATIN SMALL LETTER U WITH DIAERESIS
+*   (u") --> ü
+
+
+OrdinaryDictionaryReplacement: #.syntax.typography
+- queue_position: BEFORE #escape-idle-html
+#
+# U+00A0 NO-BREAK SPACE (&nbsp;)
+*   ~ --> " "
+#
+# U+2014 EM DASH
+*   --- --> —
+#
+# U+2013 EN DASH
+*   -- --> –
+#
+# U+2026 HORIZONTAL ELLIPSIS
+*   ... --> …
+#
+# U+02BB MODIFIER LETTER TURNED COMMA
+*   (') --> ʻ
+
+
+RegexDictionaryReplacement: #.syntax.chinese-lang
+- queue_position: BEFORE #escape-idle-html
+* (?P<chinese_run> [꜀-꜇]? [⺀-〿㇀-㇣㐀-鿼豈-龎！-｠𠀀-𱍊]+ [꜀-꜇]? )
+    -->
+  <span lang="zh-Hant">\g<chinese_run></span>

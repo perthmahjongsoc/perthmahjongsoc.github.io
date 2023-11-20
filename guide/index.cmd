@@ -131,6 +131,10 @@ The game should be played according to player consensus.
 The conventional threshold for a hand to be winning is a
 __minimum of three~|_f(a/)n___ (番, or points).
 --
+--
+The utter limit is a __maximum of thirteen~|_f(a/)n___,
+often reduced to a __maximum of eight~|_f(a/)n___.
+--
 
 
 ###{#regular} Regular hands

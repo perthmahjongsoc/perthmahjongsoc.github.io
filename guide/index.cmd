@@ -19,12 +19,9 @@ The game should be played according to player consensus.
 --
 
 
-##{#concepts} Concepts
+##{#tiles} Tiles
 
-
-###{#tiles} Tiles
-
-#### Numbered suits
+###{#numbered-suits} Numbered suits
 
 ======
 - 筒子 = __Tubes__ [circles, balls]
@@ -43,7 +40,7 @@ The game should be played according to player consensus.
   ====
 ======
 
-#### Unnumbered suits
+###{#unnumbered-suits} Unnumbered suits
 
 ======
 - 番子 = __Honours__
@@ -85,7 +82,7 @@ The game should be played according to player consensus.
 ======
 
 
-###{#melds} Melds
+##{#melds} Melds
 
 ====
 - 順子 = __Sequence__

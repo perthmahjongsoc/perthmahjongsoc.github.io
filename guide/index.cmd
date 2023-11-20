@@ -235,6 +235,11 @@ and/or rely on [bonuses].
   (Triplet or quadruplet) melds in three of the four winds,
   plus eyes in the remaining wind.
   --
+  --
+  E.g. [1s][2s][3s] [tf][tf][tf] [nf][nf][nf] [sf][sf][sf] [pf][pf].
+  In this example the requirement for 混一色 (Mixed-One-Suit) is also met,
+  so the hand is worth 6 + 3 = 9~_f(a/)n_.
+  --
 
 - (+7) 清一色 = __Pure-One-Suit__
   --

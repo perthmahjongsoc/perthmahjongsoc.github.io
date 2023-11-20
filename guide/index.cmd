@@ -268,6 +268,7 @@ and/or rely on [bonuses].
 - (+1) 正花 = __Correct Flower__
   --
   A flower matching the player's position (in games played with flowers).
+  Not counted for 一臺花 (A Platform of Flowers).
   --
 
 - (+1) 門前清 = __Gate-Front Clear__
@@ -290,6 +291,11 @@ and/or rely on [bonuses].
 - (+1) 海底撈月 = __Sea-Bottom Scooped Moon__
   --
   Winning tile is drawn as the final tile of the wall.
+  --
+
+- (+2) 一臺花 = __A Platform of Flowers__
+  --
+  Either four flora or four seasons (in games played with flowers).
   --
 
 - (13 = Maximum) 天糊 = __Heavenly Win__

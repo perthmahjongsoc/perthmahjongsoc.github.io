@@ -174,6 +174,9 @@ and/or rely on [bonuses].
   --
   The default pattern: four melds plus a pair.
   --
+  --
+  E.g. [1t][2t][3t] [6t][6t][6t] [8s][8s][8s] [9m][9m][9m] [pp][pp].
+  --
 
 - (+1) 平糊 = __Common Win__
   --

@@ -177,6 +177,10 @@ and/or rely on [bonuses].
   --
   E.g. [1t][2t][3t] [6t][6t][6t] [8s][8s][8s] [9m][9m][9m] [pp][pp].
   --
+  --
+  Or, [2s][2s][2s] [3s][4s][5s] [4m][5m][6m] [pf][pf][pf] [2t][2t],
+  assuming no bonus for North.
+  --
 
 - (+1) 平糊 = __Common Win__
   --
@@ -184,6 +188,9 @@ and/or rely on [bonuses].
   --
   --
   E.g. [1t][2t][3t] [2t][3t][4t] [4s][5s][6s] [7m][8m][9m] [pp][pp].
+  --
+  --
+  Or, [4t][5t][6t] [4t][5t][6t] [1s][2s][3s] [7m][8m][9m] [8t][8t].
   --
 
 - (+3) 對對糊 = __All-Matches Win__
@@ -193,6 +200,10 @@ and/or rely on [bonuses].
   --
   --
   E.g. [1t][1t][1t] [2t][2t][2t] [5s][5s][5s] [8m][8m][8m] [pp][pp].
+  --
+  --
+  Or, [2s][2s][2s] [3s][3s][3s] [4m][4m][4m] [pf][pf][pf] [2t][2t],
+  assuming no bonus for North.
   --
 
 - (+3) 混一色 = __Mixed-One-Suit__

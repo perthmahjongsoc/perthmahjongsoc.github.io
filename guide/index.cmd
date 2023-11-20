@@ -286,6 +286,9 @@ and/or rely on [bonuses].
   plus each of the three dragons,
   plus a duplicate.
   --
+  --
+  E.g. [1t][9t] [1s][9s] [1m][9m] [tf][nf][sf][pf] [hc][ft][pp] [1s].
+  --
 ====
 
 

@@ -101,6 +101,9 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
   --
   Three consecutive tiles of the same numbered suit.
   --
+  --
+  E.g. [1t][2t][3t], [4s][5s][6s], [7m][8m][9m].
+  --
   ==
   - When completed by revealing after a discard from the previous player,
     this is called 上 __|_sh(e/)ung___ (going up, or onboarding).
@@ -110,6 +113,9 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
   --
   Three of the same tile.
   --
+  --
+  E.g. [2t][2t][2t], [5s][5s][5s], [8m][8m][8m], [sf][sf][sf].
+  --
   ==
   - When completed by revealing after a discard from another player,
     this is called 碰 __|_p(')ung___ (bumping).
@@ -118,6 +124,9 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 - 槓子 = __Quadruplet__
   --
   Four of the same tile, called a 槓 __|_kong___.
+  --
+  --
+  E.g. [2t][2t][2t][2t], [5s][5s][5s][5s], [8m][8m][8m][8m], [sf][sf][sf][sf].
   --
   ==
   - When completed by revealing a completely concealed set of four,

@@ -245,6 +245,9 @@ and/or rely on [bonuses].
   --
   All tiles are the same numbered suit.
   --
+  --
+  E.g. [1s][1s][1s] [3s][4s][5s] [4s][5s][6s] [8s][8s][8s] [2s][2s].
+  --
 
 - (+8) 大三元 = __Greater Three Duxes__
   --

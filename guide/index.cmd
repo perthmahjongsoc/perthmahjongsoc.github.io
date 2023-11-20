@@ -23,7 +23,7 @@ The game should be played according to player consensus.
 
 --
 The tile icons used in this guide are licensed under [CC~BY-SA~4.0],
-being modified (through the use of [SVGO])
+being modified (through the use of [SVGO] for minification)
 from [SVG Oblique illustrations of Mahjong tiles][svg-tiles]
 by [Cangjie6] and others.
 --

@@ -182,6 +182,9 @@ and/or rely on [bonuses].
   --
   All melds are sequences.
   --
+  --
+  E.g. [1t][2t][3t] [2t][3t][4t] [4s][5s][6s] [7m][8m][9m] [pp][pp].
+  --
 
 - (+3) 對對糊 = __All-Matches Win__
   --

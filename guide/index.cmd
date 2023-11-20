@@ -26,6 +26,7 @@ The tile icons used in this guide are licensed under [CC~BY-SA~4.0],
 being modified (through the use of [SVGO] for minification)
 from [SVG Oblique illustrations of Mahjong tiles][svg-tiles]
 by [Cangjie6] and others.
+See the [mahjong-tiles-svg repository] for details.
 --
 --
 As fallback, characters from the [Mahjong Tiles Unicode block]
@@ -334,6 +335,7 @@ in particular the [Details section].
 [SVGO]: https://github.com/svg/svgo
 [svg-tiles]: https://commons.wikimedia.org/wiki/Category:SVG_Oblique_illustrations_of_Mahjong_tiles
 [Cangjie6]: https://commons.wikimedia.org/wiki/User:Cangjie6
+[mahjong-tiles-svg repository]: https://github.com/yawnoc/mahjong-tiles-svg
 [Mahjong Tiles Unicode block]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
 [melds]: #melds
 [irregular hand]: #irregular

@@ -166,7 +166,7 @@ and/or rely on [bonuses].
 
 - (+3) 混一色 = __Mixed-One-Suit__
   --
-  All tiles are one numbered suit, plus honours.
+  All tiles are the same numbered suit, plus honours.
   --
 
 - (+5) 小三元 = __Lesser Three Duxes__
@@ -183,7 +183,7 @@ and/or rely on [bonuses].
 
 - (+7) 清一色 = __Pure-One-Suit__
   --
-  All tiles are one numbered suit.
+  All tiles are the same numbered suit.
   --
 
 - (+8) 大三元 = __Greater Three Duxes__

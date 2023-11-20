@@ -52,6 +52,32 @@ RegexDictionaryReplacement: #.heading-permalinks
   \g<opening_hashes_etc> []{.permalink aria-label=Permalink}(#\g<id_>)
 
 
+RegexDictionaryReplacement: #.mahjong-unicode-to-image
+* [$] (?P<tile> [🀀-🀫] ) --> ![\g<tile>](/res/tiles/\g<tile>.svg)
+
+
+OrdinaryDictionaryReplacement: #.mahjong-tiles
+- queue_position: BEFORE #backslash-escapes
+#
+# $ python3
+# >>> ''.join(chr(n) for n in range(0x1F000, 0x1F02C))
+# '🀀🀁🀂🀃🀄🀅🀆🀇🀈🀉🀊🀋🀌🀍🀎🀏🀐🀑🀒🀓🀔🀕🀖🀗🀘🀙🀚🀛🀜🀝🀞🀟🀠🀡🀢🀣🀤🀥🀦🀧🀨🀩🀪🀫'
+#
+# See <https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)>.
+#
+* [1t] --> $🀙
+* [2t] --> $🀚
+* [3t] --> $🀛
+* [4t] --> $🀜
+* [5t] --> $🀝
+* [6t] --> $🀞
+* [7t] --> $🀟
+* [8t] --> $🀠
+* [9t] --> $🀡
+#
+- concluding_replacements: #.mahjong-unicode-to-image
+
+
 OrdinaryDictionaryReplacement: #.syntax.diacritics
 - queue_position: BEFORE #backslash-escapes
 #

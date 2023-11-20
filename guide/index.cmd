@@ -275,6 +275,9 @@ and/or rely on [bonuses].
   --
   Seven distinct pairs.
   --
+  --
+  E.g. [1t][1t] [2t][2t] [5s][5s] [8m][8m] [sf][sf] [hc][hc] [pp][pp].
+  --
 
 - (13 = Maximum) 十三幺 = __Thirteen Littles__
   --

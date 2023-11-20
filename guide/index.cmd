@@ -75,7 +75,7 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 
 - 花 = __Flowers__ (OPTIONAL)
   ====
-  - 四花 = Four Flora
+  - 四花 = __Four Flora__
     ==
     - [1f] 梅 = Plum
     - [2f] 蘭 = Orchid
@@ -83,7 +83,7 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
     - [4f] 竹 = Bamboo
     ==
 
-  - 四季 = Four Seasons
+  - 四季 = __Four Seasons__
     ==
     - [1k] 春 = Spring
     - [2k] 夏 = Summer

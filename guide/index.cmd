@@ -299,6 +299,17 @@ and/or rely on [bonuses].
 ====
 
 
+##{#scoring} Scoring
+
+--
+Scoring is complicated.
+See [Conway's `mahjong-scorer` readme],
+in particular the [Details section].
+--
+
+
 [melds]: #melds
 [irregular hand]: #irregular
 [bonuses]: #bonuses
+[Conway's `mahjong-scorer` readme]: https://github.com/yawnoc/mahjong-scorer
+[Details section]: https://github.com/yawnoc/mahjong-scorer#details

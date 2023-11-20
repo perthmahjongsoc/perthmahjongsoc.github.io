@@ -75,6 +75,16 @@ OrdinaryDictionaryReplacement: #.mahjong-tiles
 * [8t] --> $🀠
 * [9t] --> $🀡
 #
+* [1s] --> $🀐
+* [2s] --> $🀑
+* [3s] --> $🀒
+* [4s] --> $🀓
+* [5s] --> $🀔
+* [6s] --> $🀕
+* [7s] --> $🀖
+* [8s] --> $🀗
+* [9s] --> $🀘
+#
 - concluding_replacements: #.mahjong-unicode-to-image
 
 

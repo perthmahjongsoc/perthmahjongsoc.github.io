@@ -245,6 +245,10 @@ and/or rely on [bonuses].
   --
   All tiles are honours.
   --
+  --
+  E.g. [tf][tf][tf] [sf][sf][sf] [pf][pf][pf] [hc][hc][hc] [pp][pp].
+  Bonuses for winds and dragons are counted separately.
+  --
 
 - (13 = Maximum) 大四喜 = __Greater Four Joys__
   --

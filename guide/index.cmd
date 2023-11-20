@@ -377,6 +377,9 @@ and/or rely on [bonuses].
   --
   Either four flora or four seasons (in games played with flowers).
   --
+  --
+  E.g. [1k][2k][3k][4k].
+  --
 
 - (13 = Maximum) 天糊 = __Heavenly Win__
   --

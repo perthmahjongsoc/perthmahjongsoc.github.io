@@ -300,11 +300,17 @@ and/or rely on [bonuses].
   A (triplet or quadruplet) meld in a wind tile matching the player's position.
   Not counted for 小四喜／大四喜 (Lesser Three Joys / Greater Three Joys).
   --
+  --
+  E.g. [nf][nf][nf] for the player to the right of the dealer.
+  --
 
 - (+1) 圈風 = __Round Wind__ [table wind]
   --
   A (triplet or quadruplet) meld in a wind tile matching prevailing table wind.
   Not counted for 小四喜／大四喜 (Lesser Three Joys / Greater Three Joys).
+  --
+  --
+  E.g. [sf][sf][sf] when West is the prevailing wind.
   --
 
 - (+1) [dragon meld]

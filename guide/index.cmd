@@ -328,6 +328,9 @@ and/or rely on [bonuses].
   (Omitting this bonus may lead to more strategic play,
   in the form of refusing a _kong_ to keep an in-hand triple concealed.)
   --
+  --
+  E.g. [2s][2s][2s][2s].
+  --
 
 - (+1) 自摸 = __Self-Drawn__
   --

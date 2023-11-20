@@ -262,6 +262,9 @@ and/or rely on [bonuses].
   --
   All four melds are quadruplets.
   --
+  --
+  E.g. [1t][1t][1t][1t] [2t][2t][2t][2t] [5s][5s][5s][5s] [8m][8m][8m][8m] [hc][hc].
+  --
 ====
 
 

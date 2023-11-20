@@ -210,6 +210,13 @@ and/or rely on [bonuses].
   --
   All tiles are the same numbered suit, plus honours.
   --
+  --
+  E.g. [1t][2t][3t] [6t][6t][6t] [8t][8t][8t] [9t][9t][9t] [pp][pp].
+  --
+  --
+  Or, [7m][8m][9m] [9m][9m][9m] [sf][sf][sf] [pf][pf][pf] [1m][1m],
+  assuming no bonus for West or North.
+  --
 
 - (+5) 小三元 = __Lesser Three Duxes__
   --

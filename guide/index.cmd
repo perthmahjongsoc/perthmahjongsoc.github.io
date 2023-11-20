@@ -237,6 +237,9 @@ and/or rely on [bonuses].
   --
   (Triplet or quadruplet) melds in all three dragons.
   --
+  --
+  E.g. [7m][8m][9m] [hc][hc][hc] [ft][ft][ft] [pp][pp][pp] [1t][1t].
+  --
 
 - (+10) 清一色番子 = __Pure-One-Suit Honours__
   --

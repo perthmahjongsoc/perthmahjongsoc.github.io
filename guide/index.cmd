@@ -191,6 +191,9 @@ and/or rely on [bonuses].
   All melds are triplets or quadruplets.
   Not counted for 清一色番子 (Pure-One-Suit Honours).
   --
+  --
+  E.g. [1t][1t][1t] [2t][2t][2t] [5s][5s][5s] [8m][8m][8m] [pp][pp].
+  --
 
 - (+3) 混一色 = __Mixed-One-Suit__
   --

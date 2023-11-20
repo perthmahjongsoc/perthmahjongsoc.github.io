@@ -223,6 +223,12 @@ and/or rely on [bonuses].
   (Triplet or quadruplet) melds in two of the three dragons,
   plus eyes in the remaining dragon.
   --
+  --
+  E.g. [2s][2s][2s] [3m][4m][5m] [hc][hc][hc] [ft][ft][ft] [pp][pp].
+  --
+  --
+  Or, [1t][1t][1t] [7m][8m][9m] [ft][ft][ft] [pp][pp][pp] [hc][hc].
+  --
 
 - (+6) 小四喜 = __Lesser Four Joys__
   --

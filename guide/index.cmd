@@ -347,6 +347,9 @@ and/or rely on [bonuses].
   A flower matching the player's position (in games played with flowers).
   Not counted for 一臺花 (A Platform of Flowers).
   --
+  --
+  E.g. [3f] for the player opposite the dealer.
+  --
 
 - (+1) 門前清 = __Gate-Front Clear__
   --

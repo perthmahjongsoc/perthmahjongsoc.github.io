@@ -175,10 +175,7 @@ and/or rely on [bonuses].
   The default pattern: four melds plus a pair.
   --
   --
-  E.g. [1t][2t][3t] [6t][6t][6t] [8s][8s][8s] [9m][9m][9m] [pp][pp].
-  --
-  --
-  Or, [2s][2s][2s] [3s][4s][5s] [4m][5m][6m] [pf][pf][pf] [2t][2t],
+  E.g. [2t][2t][2t] [3s][4s][5s] [4m][5m][6m] [pf][pf][pf] [2s][2s],
   assuming no bonus for North.
   --
 
@@ -189,9 +186,6 @@ and/or rely on [bonuses].
   --
   E.g. [1t][2t][3t] [2t][3t][4t] [4s][5s][6s] [7m][8m][9m] [pp][pp].
   --
-  --
-  Or, [4t][5t][6t] [4t][5t][6t] [1s][2s][3s] [7m][8m][9m] [8t][8t].
-  --
 
 - (+3) 對對糊 = __All-Matches Win__
   --
@@ -199,11 +193,7 @@ and/or rely on [bonuses].
   Not counted for 清一色番子 (Pure-One-Suit Honours).
   --
   --
-  E.g. [1t][1t][1t] [2t][2t][2t] [5s][5s][5s] [8m][8m][8m] [pp][pp].
-  --
-  --
-  Or, [2s][2s][2s] [3s][3s][3s] [4m][4m][4m] [pf][pf][pf] [2t][2t],
-  assuming no bonus for North.
+  E.g. [1t][1t][1t] [2t][2t][2t] [5s][5s][5s] [8m][8m][8m] [hc][hc].
   --
 
 - (+3) 混一色 = __Mixed-One-Suit__
@@ -211,11 +201,8 @@ and/or rely on [bonuses].
   All tiles are the same numbered suit, plus honours.
   --
   --
-  E.g. [1t][2t][3t] [6t][6t][6t] [8t][8t][8t] [9t][9t][9t] [pp][pp].
-  --
-  --
-  Or, [7m][8m][9m] [9m][9m][9m] [sf][sf][sf] [pf][pf][pf] [1m][1m],
-  assuming no bonus for West or North.
+  E.g. [2m][2m][2m] [7m][8m][9m] [9m][9m][9m] [sf][sf][sf] [pf][pf],
+  assuming no bonus for West.
   --
 
 - (+5) 小三元 = __Lesser Three Duxes__
@@ -224,10 +211,7 @@ and/or rely on [bonuses].
   plus eyes in the remaining dragon.
   --
   --
-  E.g. [2s][2s][2s] [3m][4m][5m] [hc][hc][hc] [ft][ft][ft] [pp][pp].
-  --
-  --
-  Or, [1t][1t][1t] [7m][8m][9m] [ft][ft][ft] [pp][pp][pp] [hc][hc].
+  E.g. [1t][1t][1t] [7m][8m][9m] [ft][ft][ft] [pp][pp][pp] [hc][hc].
   --
 
 - (+6) 小四喜 = __Lesser Four Joys__

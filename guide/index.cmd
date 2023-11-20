@@ -21,6 +21,13 @@ The game should be played according to player consensus.
 
 ##{#tiles} Tiles
 
+--
+The tile icons used in this guide are licensed under [CC~BY-SA~4.0],
+being modified (through the use of [SVGO])
+from [SVG Oblique illustrations of Mahjong tiles][svg-tiles]
+by [Cangjie6] and others.
+--
+
 ###{#numbered-suits} Numbered suits
 
 ======
@@ -319,6 +326,10 @@ in particular the [Details section].
 --
 
 
+[CC~BY-SA~4.0]: https://creativecommons.org/licenses/by-sa/4.0/
+[SVGO]: https://github.com/svg/svgo
+[svg-tiles]: https://commons.wikimedia.org/wiki/Category:SVG_Oblique_illustrations_of_Mahjong_tiles
+[Cangjie6]: https://commons.wikimedia.org/wiki/User:Cangjie6
 [melds]: #melds
 [irregular hand]: #irregular
 [bonuses]: #bonuses

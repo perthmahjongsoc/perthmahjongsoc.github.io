@@ -318,6 +318,9 @@ and/or rely on [bonuses].
   A (triplet or quadruplet) meld in a dragon tile.
   Not counted for 小三元／大三元 (Lesser Three Duxes / Greater Three Duxes).
   --
+  --
+  E.g. [hc][hc][hc].
+  --
 
 - (+1) 槓 = __|_Kong___ (OPTIONAL)
   --

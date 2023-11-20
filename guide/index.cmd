@@ -326,7 +326,7 @@ and/or rely on [bonuses].
 
 --
 Scoring is complicated.
-See [Conway's `mahjong-scorer` readme],
+See [Conway's mahjong-scorer readme],
 in particular the [Details section].
 --
 
@@ -340,5 +340,5 @@ in particular the [Details section].
 [melds]: #melds
 [irregular hand]: #irregular
 [bonuses]: #bonuses
-[Conway's `mahjong-scorer` readme]: https://github.com/yawnoc/mahjong-scorer
+[Conway's mahjong-scorer readme]: https://github.com/yawnoc/mahjong-scorer
 [Details section]: https://github.com/yawnoc/mahjong-scorer#details

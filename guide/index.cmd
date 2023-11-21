@@ -56,7 +56,7 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 
 ###{#numbered-suits} Numbered suits
 
-======
+======{.spacious}
 - 筒子 = __Tubes__ [circles, dots, balls]
   ====
   - [1t][2t][3t][4t][5t][6t][7t][8t][9t] = [one through nine]
@@ -75,9 +75,9 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 
 ###{#unnumbered-suits} Unnumbered suits
 
-======
+======{.spacious}
 - 番子 = __Honours__
-  ====
+  ===={.spacious}
   - 四風／四喜 = __Four Winds / Four Joys__ [directions]
     ==
     - [tf] 東 = East
@@ -95,7 +95,7 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
   ====
 
 - 花 = __Flowers__ (OPTIONAL)
-  ====
+  ===={.spacious}
   - 四花 = __Four Flora__
     ==
     - [1f] 梅 = Plum
@@ -117,7 +117,7 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 
 ##{#melds} Melds
 
-====
+===={.spacious}
 - 順子 = __Sequence__
   --
   Three consecutive tiles of the same numbered suit.
@@ -190,7 +190,7 @@ go for one of the patterns below or an [irregular hand],
 and/or rely on [bonuses].
 --
 
-====
+===={.spacious}
 - (0) 雞糊 = __Chicken Win__
   --
   The default pattern: four melds plus a pair.
@@ -291,7 +291,7 @@ and/or rely on [bonuses].
 
 ###{#irregular-hands} Irregular hands
 
-====
+===={.spacious}
 - (+4) 七對 = __Seven Pairs__ (OPTIONAL)
   --
   Seven distinct pairs.
@@ -315,7 +315,7 @@ and/or rely on [bonuses].
 
 ###{#bonuses} Bonuses
 
-====
+===={.spacious}
 - (+1) 門風 = __Gate Wind__ [seat wind]
   --
   A (triplet or quadruplet) meld in a wind tile matching the player's position.

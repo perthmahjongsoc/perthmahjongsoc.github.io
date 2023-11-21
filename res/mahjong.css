@@ -13,9 +13,6 @@ body {
   overflow-wrap: break-word;
   padding: var(--header-nav-height) var(--body-padding-horizontal) 1.3rem;
 }
-body > ul > li {
-  margin-bottom: 2.7em;
-}
 
 
 header {
@@ -93,10 +90,10 @@ th, td {
 }
 
 ul p {
-  margin-top: 0.3em;
+  margin: 0.4em 0;
 }
 ul ul {
-  margin: 0.5em 0 1em;
+  margin: 0.5em 0;
 }
 
 
@@ -106,6 +103,10 @@ ul ul {
   background-repeat: no-repeat;
   background-size: 1em;
   padding-left: 1.5em;
+}
+
+.spacious > li {
+  margin-bottom: 2.5em;
 }
 
 .tile {

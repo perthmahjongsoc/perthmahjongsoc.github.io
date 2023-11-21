@@ -59,17 +59,17 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 ======{.spacious}
 - 筒子 = __Tubes__ [circles, dots, balls]
   ====
-  - [1t][2t][3t][4t][5t][6t][7t][8t][9t] = [one through nine]
+  - [1t], [2t], [3t], [4t], [5t], [6t], [7t], [8t], [9t] = [one through nine]
   ====
 
 - 索子 = __Rods__ [bamboos, sticks]
   ====
-  - [1s][2s][3s][4s][5s][6s][7s][8s][9s] = [one through nine]
+  - [1s], [2s], [3s], [4s], [5s], [6s], [7s], [8s], [9s] = [one through nine]
   ====
 
 - 萬子 = __Myriads__ [characters, ten-thousands]
   ====
-  - [1m][2m][3m][4m][5m][6m][7m][8m][9m] = [one through nine]
+  - [1m], [2m], [3m], [4m], [5m], [6m], [7m], [8m], [9m] = [one through nine]
   ====
 ======
 

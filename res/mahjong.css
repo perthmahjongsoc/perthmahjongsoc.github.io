@@ -113,6 +113,10 @@ ul ul {
   height: 2.5em;
 }
 
+.tile-group {
+  white-space: nowrap;
+}
+
 .wide {
   overflow-x: auto;
 }

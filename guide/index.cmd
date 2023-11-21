@@ -3,7 +3,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Guide
-* %date-modified --> 2023-11-20
+* %date-modified --> 2023-11-21
 
 %%%
 
@@ -153,8 +153,8 @@ The conventional threshold for a hand to be winning is a
 __minimum of three~|_f(a/)n___ (番, or points).
 --
 --
-The utter limit is a __maximum of thirteen~|_f(a/)n___,
-often reduced to a __maximum of eight~|_f(a/)n___.
+The conventional maximum for scoring is an __upper limit of thirteen~|_f(a/)n___,
+quite often reduced to an __upper limit of eight~|_f(a/)n___.
 --
 
 

@@ -17,6 +17,27 @@ This (incomprehensive) reference guide is based on Hong Kong gameplay.
 There is no such thing as an offical version of mahjong.
 The game should be played according to player consensus.
 --
+--
+Quick links:
+--
+====
+- [Tiles]
+  ==
+  - [Numbered suits]
+  - [Unnumbered suits]
+  ==
+
+- [Melds]
+
+- [Winning]
+  ==
+  - [Regular hands]
+  - [Irregular hands]
+  - [Bonuses]
+  ==
+
+- [Scoring]
+====
 
 
 ##{#tiles} Tiles
@@ -158,7 +179,7 @@ quite often reduced to an __upper limit of eight~|_f(a/)n___.
 --
 
 
-###{#regular} Regular hands
+###{#regular-hands} Regular hands
 
 --
 Regular winning hands consist of
@@ -268,7 +289,7 @@ and/or rely on [bonuses].
 ====
 
 
-###{#irregular} Irregular hands
+###{#irregular-hands} Irregular hands
 
 ====
 - (+4) 七對 = __Seven Pairs__ (OPTIONAL)
@@ -402,14 +423,22 @@ in particular the [Details section].
 --
 
 
+[Tiles]: #tiles
+  [Numbered suits]: #numbered-suits
+  [Unnumbered suits]: #unnumbered-suits
+[Melds]: #melds
+[Winning]: #winning
+  [Regular hands]: #regular-hands
+  [Irregular hands]: #irregular-hands
+  [Bonuses]: #bonuses
+[Scoring]: #scoring
+
 [CC~BY-SA~4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [SVGO]: https://github.com/svg/svgo
 [svg-tiles]: https://commons.wikimedia.org/wiki/Category:SVG_Oblique_illustrations_of_Mahjong_tiles
 [Cangjie6]: https://commons.wikimedia.org/wiki/User:Cangjie6
 [mahjong-tiles-svg repository]: https://github.com/yawnoc/mahjong-tiles-svg
 [Mahjong Tiles Unicode block]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
-[melds]: #melds
-[irregular hand]: #irregular
-[bonuses]: #bonuses
+[irregular hand]: #irregular-hands
 [Conway's mahjong-scorer readme]: https://github.com/yawnoc/mahjong-scorer
 [Details section]: https://github.com/yawnoc/mahjong-scorer#details

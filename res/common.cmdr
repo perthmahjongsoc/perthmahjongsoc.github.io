@@ -52,11 +52,7 @@ RegexDictionaryReplacement: #.heading-permalinks
   \g<opening_hashes_etc> []{.permalink aria-label=Permalink}(#\g<id_>)
 
 
-RegexDictionaryReplacement: #.mahjong-unicode-to-image
-* [$] (?P<tile> [🀀-🀫] ) --> ![\g<tile>]{.tile}(/res/tiles/\g<tile>.svg)
-
-
-OrdinaryDictionaryReplacement: #.mahjong-tiles
+OrdinaryDictionaryReplacement: #.mahjong-ascii-to-unicode
 - queue_position: BEFORE #backslash-escapes
 #
 # $ python3
@@ -112,8 +108,16 @@ OrdinaryDictionaryReplacement: #.mahjong-tiles
 * [2k] --> $🀧
 * [3k] --> $🀨
 * [4k] --> $🀩
-#
-- concluding_replacements: #.mahjong-unicode-to-image
+
+
+RegexDictionaryReplacement: #.mahjong-unicode-tile-groups
+- queue_position: AFTER #.mahjong-ascii-to-unicode
+* (?: [$][🀀-🀫] ) {2,} --> <span class="tile-group">\g<0></span>
+
+
+RegexDictionaryReplacement: #.mahjong-unicode-to-image
+- queue_position: AFTER #.mahjong-unicode-tile-groups
+* [$] (?P<tile> [🀀-🀫] ) --> ![\g<tile>]{.tile}(/res/tiles/\g<tile>.svg)
 
 
 OrdinaryDictionaryReplacement: #.syntax.diacritics

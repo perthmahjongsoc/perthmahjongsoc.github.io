@@ -3,7 +3,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Guide
-* %date-modified --> 2023-11-21
+* %date-modified --> 2023-11-22
 
 %%%
 
@@ -437,7 +437,7 @@ in particular the [Details section].
 [SVGO]: https://github.com/svg/svgo
 [svg-tiles]: https://commons.wikimedia.org/wiki/Category:SVG_Oblique_illustrations_of_Mahjong_tiles
 [Cangjie6]: https://commons.wikimedia.org/wiki/User:Cangjie6
-[mahjong-tiles-svg repository]: https://github.com/yawnoc/mahjong-tiles-svg
+[mahjong-tiles-svg repository]: https://github.com/perthmahjongsoc/mahjong-tiles-svg
 [Mahjong Tiles Unicode block]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
 [irregular hand]: #irregular-hands
 [Conway's mahjong-scorer readme]: https://github.com/yawnoc/mahjong-scorer

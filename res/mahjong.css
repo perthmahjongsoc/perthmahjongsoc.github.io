@@ -114,6 +114,7 @@ ul ul {
 
 .tile {
   height: 2.5em;
+  margin: 0.1em 0;
 }
 
 .tile-group {

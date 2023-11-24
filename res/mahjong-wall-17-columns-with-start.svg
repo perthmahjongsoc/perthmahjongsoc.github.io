@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="-420 -420 840 840" width="480px" xmlns="http://www.w3.org/2000/svg">
+<style>
+  #arrowhead {
+    fill: crimson;
+  }
+  #start {
+    fill: none;
+    stroke: crimson;
+    stroke-width: 5;
+  }
+  #tile {
+    fill: green;
+    stroke: black;
+    stroke-width: 2;
+  }
+  .start {
+    font: 36px sans-serif;
+    fill: crimson;
+  }
+  .wind {
+    font: 72px sans-serif;
+  }
+  text {
+    dominant-baseline: middle;
+    text-anchor: middle;
+  }
+</style>
+<defs>
+  <marker id="arrowhead" viewBox="0 -15 50 30" refX="25" refY="0"
+    markerUnits="userSpaceOnUse" markerWidth="50" markerHeight="15" orient="auto-start-reverse">
+    <path d="M 0 -15 L 0 15 L 50 0 z"/>
+  </marker>
+  <path id="start" marker-end="url(#arrowhead)" d="M 0 0 v 18 h -70" />
+  <rect id="tile" width="28" height="37" rx="5" ry="5" />
+</defs>
+<g transform="rotate(-23.4)">
+<g transform="rotate(0)">
+<use href="#tile" x="126" y="154" />
+<use href="#tile" x="98" y="154" />
+<use href="#tile" x="70" y="154" />
+<use href="#tile" x="42" y="154" />
+<use href="#tile" x="14" y="154" />
+<use href="#tile" x="-14" y="154" />
+<use href="#tile" x="-42" y="154" />
+<use href="#tile" x="-70" y="154" />
+<use href="#tile" x="-98" y="154" />
+<use href="#tile" x="-126" y="154" />
+<use href="#tile" x="-154" y="154" />
+<use href="#tile" x="-182" y="154" />
+<use href="#tile" x="-210" y="154" />
+<use href="#tile" x="-238" y="154" />
+<use href="#tile" x="-266" y="154" />
+<use href="#tile" x="-294" y="154" />
+<use href="#tile" x="-322" y="154" />
+<g transform="translate(-22 332) rotate(23.4)"><text class="wind">東 E</text></g></g>
+<g transform="rotate(-90)">
+<use href="#tile" x="126" y="154" />
+<use href="#tile" x="98" y="154" />
+<use href="#tile" x="70" y="154" />
+<use href="#tile" x="42" y="154" />
+<use href="#tile" x="14" y="154" />
+<use href="#tile" x="-14" y="154" />
+<use href="#tile" x="-42" y="154" />
+<use href="#tile" x="-70" y="154" />
+<use href="#tile" x="-98" y="154" />
+<use href="#tile" x="-126" y="154" />
+<use href="#tile" x="-154" y="154" />
+<use href="#tile" x="-182" y="154" />
+<use href="#tile" x="-210" y="154" />
+<use href="#tile" x="-238" y="154" />
+<use href="#tile" x="-266" y="154" />
+<use href="#tile" x="-294" y="154" />
+<use href="#tile" x="-322" y="154" />
+<g transform="translate(-22 332) rotate(113.4)"><text class="wind">南 S</text></g></g>
+<g transform="rotate(-180)">
+<use href="#tile" x="126" y="154" />
+<use href="#tile" x="98" y="154" />
+<use href="#tile" x="70" y="154" />
+<use href="#tile" x="42" y="154" />
+<use href="#tile" x="14" y="154" />
+<use href="#tile" x="-14" y="154" />
+<use href="#tile" x="-42" y="154" />
+<use href="#tile" x="-70" y="154" />
+<use href="#tile" x="-98" y="154" />
+<use href="#tile" x="-126" y="154" />
+<use href="#tile" x="-154" y="154" />
+<use href="#tile" x="-182" y="154" />
+<use href="#tile" x="-210" y="154" />
+<use href="#tile" x="-238" y="154" />
+<use href="#tile" x="-266" y="154" />
+<use href="#tile" x="-294" y="154" />
+<use href="#tile" x="-322" y="154" />
+<g transform="translate(-22 314) rotate(203.4)"><text class="wind">西 W</text></g></g>
+<g transform="rotate(-270)">
+<use href="#tile" x="126" y="154" />
+<use href="#tile" x="98" y="154" />
+<use href="#tile" x="70" y="154" />
+<use href="#tile" x="42" y="154" />
+<use href="#tile" x="14" y="154" />
+<use href="#tile" x="-14" y="154" />
+<use href="#tile" x="-42" y="154" />
+<use href="#tile" x="-70" y="154" />
+<use href="#tile" x="-98" y="154" />
+<use href="#tile" x="-126" y="154" />
+<use href="#tile" x="-154" y="154" />
+<use href="#tile" x="-182" y="154" />
+<use href="#tile" x="-210" y="154" />
+<use href="#tile" x="-238" y="154" />
+<use href="#tile" x="-266" y="154" />
+<use href="#tile" x="-294" y="154" />
+<use href="#tile" x="-322" y="154" />
+<g transform="translate(-22 332) rotate(293.4)"><text class="wind">北 N</text></g></g>
+<g transform="rotate(-180)">
+<use href="#start" x="70" y="191" /><g transform="translate(63 238) rotate(203.4) "><text class="start">3</text></g>
+</g>
+<g transform="rotate(-270)">
+<use href="#start" x="42" y="191" /><g transform="translate(35 238) rotate(293.4) "><text class="start">4</text></g>
+</g>
+<g transform="rotate(0)">
+<use href="#start" x="14" y="191" /><g transform="translate(7 238) rotate(23.4) "><text class="start">5</text></g>
+</g>
+<g transform="rotate(-90)">
+<use href="#start" x="-14" y="191" /><g transform="translate(-21 238) rotate(113.4) "><text class="start">6</text></g>
+</g>
+<g transform="rotate(-180)">
+<use href="#start" x="-42" y="191" /><g transform="translate(-49 238) rotate(203.4) "><text class="start">7</text></g>
+</g>
+<g transform="rotate(-270)">
+<use href="#start" x="-70" y="191" /><g transform="translate(-77 238) rotate(293.4) "><text class="start">8</text></g>
+</g>
+<g transform="rotate(0)">
+<use href="#start" x="-98" y="191" /><g transform="translate(-105 238) rotate(23.4) "><text class="start">9</text></g>
+</g>
+<g transform="rotate(-90)">
+<use href="#start" x="-126" y="191" /><g transform="translate(-133 243) rotate(113.4) "><text class="start">10</text></g>
+</g>
+<g transform="rotate(-180)">
+<use href="#start" x="-154" y="191" /><g transform="translate(-161 238) rotate(203.4) "><text class="start">11</text></g>
+</g>
+<g transform="rotate(-270)">
+<use href="#start" x="-182" y="191" /><g transform="translate(-189 243) rotate(293.4) "><text class="start">12</text></g>
+</g>
+<g transform="rotate(0)">
+<use href="#start" x="-210" y="191" /><g transform="translate(-217 243) rotate(23.4) "><text class="start">13</text></g>
+</g>
+<g transform="rotate(-90)">
+<use href="#start" x="-238" y="191" /><g transform="translate(-245 243) rotate(113.4) "><text class="start">14</text></g>
+</g>
+<g transform="rotate(-180)">
+<use href="#start" x="-266" y="191" /><g transform="translate(-273 238) rotate(203.4) "><text class="start">15</text></g>
+</g>
+<g transform="rotate(-270)">
+<use href="#start" x="-294" y="191" /><g transform="translate(-301 243) rotate(293.4) "><text class="start">16</text></g>
+</g>
+<g transform="rotate(90)">
+<use href="#start" x="154" y="191" /><g transform="translate(124 243) rotate(-66.6) "><text class="start">17</text></g>
+</g>
+<g transform="rotate(0)">
+<use href="#start" x="126" y="191" /><g transform="translate(119 243) rotate(23.4) "><text class="start">18</text></g>
+</g>
+</g>
+</svg>

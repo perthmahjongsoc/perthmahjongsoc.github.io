@@ -3,7 +3,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Guide
-* %date-modified --> 2023-11-22
+* %date-modified --> 2023-11-25
 
 %%%
 
@@ -21,6 +21,8 @@ The game should be played according to player consensus.
 Quick links:
 --
 ====
+- [Layout & dice roll]
+
 - [Tiles]
   ==
   - [Numbered suits]
@@ -37,6 +39,26 @@ Quick links:
   ==
 
 - [Scoring]
+====
+
+
+##{#layout} Layout & dice roll
+
+--
+The following diagrams show a top-down view of the initial four-wall layout.
+The numbered markers indicate (for each dice roll total)
+the initial position for drawing tiles.
+--
+===={.spacious}
+- 18-column walls:
+  ||
+    ![Diagram of layout.](/res/mahjong-wall-18-columns-with-start.svg)
+  ||
+
+- 17-column walls (no flowers):
+  ||
+    ![Diagram of layout.](/res/mahjong-wall-17-columns-with-start.svg)
+  ||
 ====
 
 
@@ -423,6 +445,7 @@ in particular the [Details section].
 --
 
 
+[Layout & dice roll]: #layout
 [Tiles]: #tiles
   [Numbered suits]: #numbered-suits
   [Unnumbered suits]: #unnumbered-suits

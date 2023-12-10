@@ -170,3 +170,41 @@ d - 6 -
 
 Conway Rowena Hwei Elayne
 5 - - d
+
+2023-12-10
+
+Jackie Elayne Rowena Conway
+d - - 3
+
+Jackie James Rowena Conway
+- - - -
+
+Jackie James Rowena Hwei
+- d 4 -
+
+Elayne James Rowena Jackie
+6 - - -
+
+Elayne Conway Hwei Jackie
+- - - -
+d - - 5
+- - - 8
+
+James Conway Hwei Rowena
+- d - 6
+
+Elayne Conway Hwei Rowena
+8 - - -  # 十三幺
+
+James Conway Hwei Rowena
+- - - -
+
+Elayne Conway Hwei James
+- - - -
+- d 5 -
+- 4 - -
+- 5 d -
+d 3 - -
+6 - - -
+d 8 - -
+d 8 - -

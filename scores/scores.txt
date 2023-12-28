@@ -237,6 +237,11 @@ d 4 - -
 Jackie Rowena Raymond Conway
 4 - - d
 
+Harrison Felicia Alex Conway
+- - 5 -
+- - - -
+- 7 - -  # 海底撈月
+
 ## Table 2
 
 Elayne Harrison James Felicia
@@ -260,3 +265,12 @@ d 5 - -
 
 Elayne Felicia Harrison James
 - 8 - d
+
+Elayne Rowena Jackie Raymond
+8 - - -
+- - 6 -
+d - 4 -
+d 8 - -
+
+Elayne Rowena Conway Felicia
+- 8 d -  # 小三元

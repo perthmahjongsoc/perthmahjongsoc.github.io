@@ -194,7 +194,7 @@ James Conway Hwei Rowena
 - d - 6
 
 Elayne Conway Hwei Rowena
-8 - - -  # 十三幺
+8 - - -  # 自摸十三幺
 
 James Conway Hwei Rowena
 - - - -
@@ -208,3 +208,55 @@ d 3 - -
 6 - - -
 d 8 - -
 d 8 - -
+
+2023-12-28
+
+## Table 1
+
+Alex Rowena Raymond Conway
+- - 6 -
+- d - 4
+- 4 - d
+
+Alex Jackie Raymond Conway
+d - 7 -
+
+Alex Rowena Raymond Conway
+d - - 4
+- - d 4
+d - - 4
+- - - 5
+- - - -
+- - - -
+- 3 - d
+- - 3 d
+d 4 - -
+- 5 - -
+- - - -
+
+Jackie Rowena Raymond Conway
+4 - - d
+
+## Table 2
+
+Elayne Harrison James Felicia
+- - - -
+d - - 4
+- - - -
+
+Elayne Jackie James Felicia
+d 7 - -
+- 5 d -
+- - d 5
+- d - 5
+- - 8 -  # 自摸小三元對對糊
+- - - -
+- 4 - d
+
+Elayne Jackie Harrison Felicia
+d 5 - -
+- 6 d -
+- 5 - -
+
+Elayne Felicia Harrison James
+- 8 - d

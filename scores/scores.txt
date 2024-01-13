@@ -284,3 +284,60 @@ Elayne Rowena Conway Felicia
 
 
 2024-01-13
+
+## Table 1
+
+James Elayne Rowena Conway
+- - 8 -
+- - - -
+
+Alex Elayne Rowena Conway
+4 - - -
+- - 4 -
+d - - 4
+4 - - -
+- - - -
+d 4 - -
+d - - 5
+4 - - d
+5 - - -
+- - - -
+- 4 - d
+
+Felicia Elayne James Conway
+4 - - -
+d 4 - -
+
+Hwei Elayne James Conway
+- - - -
+
+Hwei Harrison Felicia Conway
+- 8 - -
+6 d - -
+4 - - -
+
+Hwei Elayne James Conway
+- - - -
+
+Harrison Felicia Elayne Conway
+d 5 - -
+
+Harrison Felicia Elayne Hwei
+- 5 d -
+- - 3 -
+
+Conway James Elayne Hwei
+- - - -
+d - - 5
+4 - d -
+
+## Table 2
+
+James Harrison Felicia Hwei
+4 - d -
+- - 5 d
+8 - d -
+d - 8 -
+- d - 4
+- - d 4
+- - 4 d

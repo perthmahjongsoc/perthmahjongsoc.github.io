@@ -17,9 +17,9 @@ python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt --from 2023-01-22 
 python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt --from 2024-02-10
 python3 ../mahjong-scorer/mahjongscore.py ./scores/scores.txt --from $latest_date
 
-mv "./scores/scores.txt --from 2023-01-22 --to 2024-02-10.tsv" './scores/all-time.tsv'
-mv "./scores/scores.txt --from 2024-02-10.tsv" './scores/latest.tsv'
-# mv "./scores/scores.txt --from ${latest_date}.tsv" './scores/latest.tsv'
+mv "./scores/scores.txt --from 2023-01-22 --to 2024-02-10.tsv" './scores/2023.tsv'
+mv "./scores/scores.txt --from 2024-02-10.tsv" './scores/2024.tsv'
+mv "./scores/scores.txt --from ${latest_date}.tsv" './scores/latest.tsv'
 
 python3 ./res/scoring.py $latest_date
 python3 ../conway-markdown/cmd.py

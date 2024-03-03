@@ -5,7 +5,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Scores
-* %date-modified --> 2024-01-13
+* %date-modified --> 2024-03-03
 
 %%%
 
@@ -23,7 +23,7 @@ Rows are sorted by Net Score Per Game.
 %%score-table(latest)
 
 
-##{#all-time} All time
+##{#2023} Lunar Year 2023 (癸卯年)
 
 %%score-table(all-time)
 

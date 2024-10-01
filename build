@@ -23,5 +23,5 @@ mv "./scores/scores.txt --from ${new_years_date_2024}.tsv" './scores/2024.tsv'
 mv "./scores/scores.txt --from ${latest_date}.tsv" './scores/latest.tsv'
 
 python3 ./res/scoring.py $latest_date
-python3 ../conway-markdown/cmd.py
+cmd --all  # pip3 install conwaymd
 python3 ./res/sitemap.py

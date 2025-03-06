@@ -3,7 +3,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Guide
-* %date-modified --> 2023-11-25
+* %date-modified --> 2025-03-06
 
 %%%
 
@@ -181,9 +181,9 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 
   - When completed by revealing after a discard from another player,
     or by appending to an existing 碰 _p(')ung_,
-    this is called 明槓 __|_ming~kong___ (transparent _kong_).
+    this is called 明槓 __|_ming~kong___ (visible _kong_).
     --
-    A transparent _kong_ can be robbed for a win.
+    A visible _kong_ can be robbed for a win.
     --
   ==
 ====
@@ -401,7 +401,7 @@ and/or rely on [bonuses].
 
 - (+1) 搶槓 = __Robbed _Kong___
   --
-  Winning tile is revealed when completing a transparent _kong_
+  Winning tile is revealed when completing a visible _kong_
   (or even a concealed _kong_ if the win is 十三幺 (Thirteen Littles)).
   --
 

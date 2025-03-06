@@ -4,9 +4,9 @@
 #
 # Build the site, which is static.
 #
-# Assumes the following are checked out as siblings of the current repository:
-# - <https://github.com/yawnoc/mahjong-scorer>
-# - <https://github.com/conway-markdown/conway-markdown>
+# Assumes Conway-Markdown is installed (`pip3 install conwaymd`),
+# and that <https://github.com/yawnoc/mahjong-scorer> is checked out
+# as a sibling of the current repository.
 
 git clean -Xfd
 

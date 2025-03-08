@@ -4,7 +4,7 @@
 #
 # Build the site, which is static.
 #
-# Assumes Conway-Markdown is installed (`pip3 install conwaymd`),
+# Assumes Conway-Markdown is installed (`pipx install conwaymd`),
 # and that <https://github.com/yawnoc/mahjong-scorer> is checked out
 # as a sibling of the current repository.
 
@@ -23,5 +23,5 @@ mv "./scores/scores.txt --from ${new_years_date_2024}.tsv" './scores/2024.tsv'
 mv "./scores/scores.txt --from ${latest_date}.tsv" './scores/latest.tsv'
 
 python3 ./res/scoring.py $latest_date
-cmd --all  # pip3 install conwaymd
+cmd --all  # pipx install conwaymd
 python3 ./res/sitemap.py

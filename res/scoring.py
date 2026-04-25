@@ -74,6 +74,7 @@ def main():
     tsv_to_cmdr(base_name='2023', latest_date=None)
     tsv_to_cmdr(base_name='2024', latest_date=None)
     tsv_to_cmdr(base_name='2025', latest_date=None)
+    tsv_to_cmdr(base_name='2026', latest_date=None)
     tsv_to_cmdr(base_name='latest', latest_date=sys.argv[1])
 
 

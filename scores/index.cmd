@@ -3,11 +3,12 @@
 < /scores/2023.cmdr
 < /scores/2024.cmdr
 < /scores/2025.cmdr
+< /scores/2026.cmdr
 
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Scores
-* %date-modified --> 2025-03-09
+* %date-modified --> 2026-04-26
 
 %%%
 
@@ -23,6 +24,11 @@ Rows are sorted by Net Score Per Game.
 ##{#latest} Latest meet (%date-latest)
 
 %%score-table(latest)
+
+
+##{#2026} Lunar Year 2026 (丙午年)
+
+%%score-table(2026)
 
 
 ##{#2025} Lunar Year 2025 (乙巳年)

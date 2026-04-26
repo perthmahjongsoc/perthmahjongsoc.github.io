@@ -116,7 +116,7 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
     ==
   ====
 
-- 花 = __Flowers__ (OPTIONAL)
+- 花 = __Flowers__ (optional)
   ===={.spacious}
   - 四花 = __Four Flora__
     ==
@@ -314,7 +314,7 @@ and/or rely on [bonuses].
 ###{#irregular-hands} Irregular hands
 
 ===={.spacious}
-- (+4~_faan_) 七對 = __Seven Pairs__ (OPTIONAL)
+- (+4~_faan_) 七對 = __Seven Pairs__ (optional)
   --
   Seven distinct pairs.
   --
@@ -365,7 +365,7 @@ and/or rely on [bonuses].
   E.g. [hc][hc][hc].
   --
 
-- (+1~_faan_) 槓 = __|_Kong___ (OPTIONAL)
+- (+1~_faan_) 槓 = __|_Kong___ (optional)
   --
   A quadruplet meld.
   (Omitting this bonus may lead to more strategic play,

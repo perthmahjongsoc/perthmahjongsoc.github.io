@@ -5,6 +5,12 @@ OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 * %title --> Guide
 * %date-modified --> 2025-03-06
 
+RegexDictionaryReplacement: #.faan-indicators
+- queue_position: BEFORE #whitespace
+* \[\[ (?P<content> .*? ) \]\]
+    -->
+  <span class="faan">\g<content></span>
+
 %%%
 
 
@@ -218,7 +224,7 @@ and/or rely on [bonuses].
 --
 
 ===={.spacious}
-- (0~_faan_) 雞糊 = __Chicken Win__
+- [[0~_faan_]] 雞糊 = __Chicken Win__
   --
   The default pattern: four melds plus a pair.
   --
@@ -227,7 +233,7 @@ and/or rely on [bonuses].
   assuming no bonus for North.
   --
 
-- (+1~_faan_) 平糊 = __Common Win__
+- [[+1~_faan_]] 平糊 = __Common Win__
   --
   All melds are sequences.
   --
@@ -235,7 +241,7 @@ and/or rely on [bonuses].
   E.g. [1t][2t][3t] [2t][3t][4t] [4s][5s][6s] [7m][8m][9m] [pp][pp].
   --
 
-- (+3~_faan_) 對對糊 = __All-Matches Win__
+- [[+3~_faan_]] 對對糊 = __All-Matches Win__
   --
   All melds are triplets or quadruplets.
   Not counted for 清一色番子 (Pure-One-Suit Honours).
@@ -244,7 +250,7 @@ and/or rely on [bonuses].
   E.g. [1t][1t][1t] [2t][2t][2t] [5s][5s][5s] [8m][8m][8m] [hc][hc].
   --
 
-- (+3~_faan_) 混一色 = __Mixed-One-Suit__
+- [[+3~_faan_]] 混一色 = __Mixed-One-Suit__
   --
   All tiles are the same numbered suit, plus honours.
   --
@@ -253,7 +259,7 @@ and/or rely on [bonuses].
   assuming no bonus for West.
   --
 
-- (+5~_faan_) 小三元 = __Lesser Three Duxes__
+- [[+5~_faan_]] 小三元 = __Lesser Three Duxes__
   --
   (Triplet or quadruplet) melds in two of the three dragons,
   plus eyes in the remaining dragon.
@@ -262,7 +268,7 @@ and/or rely on [bonuses].
   E.g. [1t][1t][1t] [7m][8m][9m] [ft][ft][ft] [pp][pp][pp] [hc][hc].
   --
 
-- (+6~_faan_) 小四喜 = __Lesser Four Joys__
+- [[+6~_faan_]] 小四喜 = __Lesser Four Joys__
   --
   (Triplet or quadruplet) melds in three of the four winds,
   plus eyes in the remaining wind.
@@ -273,7 +279,7 @@ and/or rely on [bonuses].
   so the hand is worth 6 + 3 = 9~_faan_.
   --
 
-- (+7~_faan_) 清一色 = __Pure-One-Suit__
+- [[+7~_faan_]] 清一色 = __Pure-One-Suit__
   --
   All tiles are the same numbered suit.
   --
@@ -281,7 +287,7 @@ and/or rely on [bonuses].
   E.g. [1s][1s][1s] [3s][4s][5s] [4s][5s][6s] [8s][8s][8s] [2s][2s].
   --
 
-- (+8~_faan_) 大三元 = __Greater Three Duxes__
+- [[+8~_faan_]] 大三元 = __Greater Three Duxes__
   --
   (Triplet or quadruplet) melds in all three dragons.
   --
@@ -289,7 +295,7 @@ and/or rely on [bonuses].
   E.g. [7m][8m][9m] [hc][hc][hc] [ft][ft][ft] [pp][pp][pp] [1t][1t].
   --
 
-- (+10~_faan_) 清一色番子 = __Pure-One-Suit Honours__
+- [[+10~_faan_]] 清一色番子 = __Pure-One-Suit Honours__
   --
   All tiles are honours.
   --
@@ -298,7 +304,7 @@ and/or rely on [bonuses].
   Bonuses for winds and dragons are counted separately.
   --
 
-- (13~_faan_ = Maximum) 大四喜 = __Greater Four Joys__
+- [[13~_faan_ = Maximum]] 大四喜 = __Greater Four Joys__
   --
   (Triplet or quadruplet) melds in all four winds.
   --
@@ -306,7 +312,7 @@ and/or rely on [bonuses].
   E.g. [tf][tf][tf] [nf][nf][nf] [sf][sf][sf] [pf][pf][pf] [2t][2t].
   --
 
-- (13~_faan_ = Maximum) 十八羅漢 = __Eighteen Lohans__
+- [[13~_faan_ = Maximum]] 十八羅漢 = __Eighteen Lohans__
   --
   All four melds are quadruplets.
   --
@@ -319,7 +325,7 @@ and/or rely on [bonuses].
 ###{#irregular-hands} Irregular hands
 
 ===={.spacious}
-- (+4~_faan_) 七對 = __Seven Pairs__ (optional)
+- [[+4~_faan_]] 七對 = __Seven Pairs__ (optional)
   --
   Seven distinct pairs.
   --
@@ -327,7 +333,7 @@ and/or rely on [bonuses].
   E.g. [1t][1t] [2t][2t] [5s][5s] [8m][8m] [sf][sf] [hc][hc] [pp][pp].
   --
 
-- (13~_faan_ = Maximum) 十三幺 = __Thirteen Littles__
+- [[13~_faan_ = Maximum]] 十三幺 = __Thirteen Littles__
   --
   One & nine of each numbered suit,
   plus each of the four winds,
@@ -343,7 +349,7 @@ and/or rely on [bonuses].
 ###{#bonuses} Bonuses
 
 ===={.spacious}
-- (+1~_faan_) 門風 = __Gate Wind__ [seat wind]
+- [[+1~_faan_]] 門風 = __Gate Wind__ [seat wind]
   --
   A (triplet or quadruplet) meld in a wind tile matching the player's position.
   Not counted for 小四喜／大四喜 (Lesser Three Joys / Greater Three Joys).
@@ -352,7 +358,7 @@ and/or rely on [bonuses].
   E.g. [nf][nf][nf] for the player to the right of the dealer.
   --
 
-- (+1~_faan_) 圈風 = __Round Wind__ [table wind]
+- [[+1~_faan_]] 圈風 = __Round Wind__ [table wind]
   --
   A (triplet or quadruplet) meld in a wind tile matching prevailing table wind.
   Not counted for 小四喜／大四喜 (Lesser Three Joys / Greater Three Joys).
@@ -361,7 +367,7 @@ and/or rely on [bonuses].
   E.g. [sf][sf][sf] when West is the prevailing wind.
   --
 
-- (+1~_faan_) [dragon meld]
+- [[+1~_faan_]] [dragon meld]
   --
   A (triplet or quadruplet) meld in a dragon tile.
   Not counted for 小三元／大三元 (Lesser Three Duxes / Greater Three Duxes).
@@ -370,7 +376,7 @@ and/or rely on [bonuses].
   E.g. [hc][hc][hc].
   --
 
-- (+1~_faan_) 槓 = __|_Kong___ (optional)
+- [[+1~_faan_]] 槓 = __|_Kong___ (optional)
   --
   A quadruplet meld.
   (Omitting this bonus may lead to more strategic play,
@@ -380,17 +386,17 @@ and/or rely on [bonuses].
   E.g. [2s][2s][2s][2s].
   --
 
-- (+1~_faan_) 自摸 = __Self-Drawn__
+- [[+1~_faan_]] 自摸 = __Self-Drawn__
   --
   Winning tile is drawn from the wall, not discarded.
   --
 
-- (+1~_faan_) 無花 = __Without Flowers__
+- [[+1~_faan_]] 無花 = __Without Flowers__
   --
   No flowers (in games played with flowers).
   --
 
-- (+1~_faan_) 正花 = __Correct Flower__
+- [[+1~_faan_]] 正花 = __Correct Flower__
   --
   A flower matching the player's position (in games played with flowers).
   Not counted for 一臺花 (A Table of Flowers).
@@ -399,29 +405,29 @@ and/or rely on [bonuses].
   E.g. [3f] for the player opposite the dealer.
   --
 
-- (+1~_faan_) 門前清 = __Gate-Front Clear__
+- [[+1~_faan_]] 門前清 = __Gate-Front Clear__
   --
   No revealed melds prior to win.
   --
 
-- (+1~_faan_) 搶槓 = __Robbed _Kong___
+- [[+1~_faan_]] 搶槓 = __Robbed _Kong___
   --
   Winning tile is revealed when completing a visible _kong_
   (or even a concealed _kong_ if the win is 十三幺 (Thirteen Littles)).
   --
 
-- (+1~_faan_) 槓上自摸 = __Self-Drawn Atop _Kong___
+- [[+1~_faan_]] 槓上自摸 = __Self-Drawn Atop _Kong___
   --
   Winning tile is drawn as the compensating tile after a _kong_
   (accumulates with consecutive _kong_s).
   --
 
-- (+1~_faan_) 海底撈月 = __Sea-Bottom Scooped Moon__
+- [[+1~_faan_]] 海底撈月 = __Sea-Bottom Scooped Moon__
   --
   Winning tile is drawn as the final tile of the wall.
   --
 
-- (+2~_faan_) 一臺花 = __A Table of Flowers__
+- [[+2~_faan_]] 一臺花 = __A Table of Flowers__
   --
   Either four flora or four seasons (in games played with flowers).
   --
@@ -429,12 +435,12 @@ and/or rely on [bonuses].
   E.g. [1k][2k][3k][4k].
   --
 
-- (13~_faan_ = Maximum) 天糊 = __Heavenly Win__
+- [[13~_faan_ = Maximum]] 天糊 = __Heavenly Win__
   --
   Dealer wins with initial hand.
   --
 
-- (13~_faan_ = Maximum) 地糊 = __Earthly Win__
+- [[13~_faan_ = Maximum]] 地糊 = __Earthly Win__
   --
   Non-dealer wins on dealer's first discard.
   --
@@ -448,7 +454,7 @@ The Perth Mahjong Society uses the following options:
 --
 ==
 - 五一 = __Five & One__ (a base scoring unit of 1)
-- 八番 = __Eight _faan___ maximum
+- 八番 = __Eight _faan___ cap
 - 全銃 = __Full Responsibility__ (discarding player bears all losses)
 - 半辣上 = __Half-Spicy Rise__ (multiplier is arithmetic-mean interpolated after 4~_faan_)
 ==

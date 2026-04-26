@@ -109,6 +109,13 @@ ul ul {
   margin: 0;
 }
 
+.faan {
+  background: #222;
+  color: white;
+  font-weight: normal;
+  padding: 0.3em 0.5em;
+}
+
 .permalink {
   background-image: url(permalink.svg);
   background-position: center left;
@@ -125,7 +132,7 @@ ul ul {
 }
 
 .spacious > li {
-  margin-bottom: 2.5em;
+  margin-bottom: 1.5em;
 }
 
 .tile {

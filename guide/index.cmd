@@ -501,7 +501,7 @@ To score a finished game:
   1. 自摸 = __self-draw__:
      =={.compressed}
      - The winner wins 3~portions.
-     - The other players each lose~1 portion.
+     - Each other player loses 1~portion.
      ==
 
   1. 打出 = __discard__:

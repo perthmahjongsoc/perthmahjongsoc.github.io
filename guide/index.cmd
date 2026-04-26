@@ -20,7 +20,7 @@ RegexDictionaryReplacement: #.faan-indicators
 This (incomprehensive) reference guide is based on Hong Kong gameplay.
 --
 --
-There is no such thing as an offical version of mahjong.
+There is no such thing as an official version of mahjong.
 The game should be played according to player consensus.
 --
 --

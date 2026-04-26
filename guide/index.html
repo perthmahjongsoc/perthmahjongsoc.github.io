@@ -539,9 +539,111 @@ Non-dealer wins on dealer's first discard.
 </ul>
 <h2 id="scoring"><a href="#scoring" class="permalink" aria-label="Permalink"></a>Scoring</h2>
 <p>
-Scoring is complicated.
-See <a href="https://github.com/yawnoc/mahjong-scorer">Conway's mahjong-scorer readme</a>,
-in particular the <a href="https://github.com/yawnoc/mahjong-scorer#details">Details section</a>.
+The Perth Mahjong Society uses the following options:
+</p>
+<ul>
+<li>
+<span lang="zh-Hant">五一</span> = <b>Five &amp; One</b> (a base scoring unit of 1)
+</li>
+<li>
+<span lang="zh-Hant">八番</span> = <b>Eight <i>faan</i></b> maximum
+</li>
+<li>
+<span lang="zh-Hant">全銃</span> = <b>Full Responsibility</b> (discarding player bears all losses)
+</li>
+<li>
+<span lang="zh-Hant">半辣上</span> = <b>Half-Spicy Rise</b> (multiplier is arithmetic-mean interpolated after 4 <i>faan</i>)
+</li>
+</ul>
+<p>
+To score a finished game:
+</p>
+<ol start="0" class="slightly-spacious">
+<li>
+If the game is drawn, scores do not change.
+</li>
+<li>
+Convert the number of <i>faan</i> to a <b>portion</b>:
+<div class="wide spacious">
+<table>
+<thead>
+<tr>
+<th>Number of <i>faan</i></th>
+<th>Portion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>4</td>
+<td>16</td>
+</tr>
+<tr>
+<td>5</td>
+<td>24</td>
+</tr>
+<tr>
+<td>6</td>
+<td>32</td>
+</tr>
+<tr>
+<td>7</td>
+<td>48</td>
+</tr>
+<tr>
+<td>8</td>
+<td>64</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li>
+If the game ended with …
+<ol type="a" class="slightly-spacious">
+<li>
+<span lang="zh-Hant">自摸</span> = <b>self-draw</b>:
+<ul class="compressed">
+<li>
+The winner wins 3 portions.
+</li>
+<li>
+The other players each lose 1 portion.
+</li>
+</ul>
+</li>
+<li>
+<span lang="zh-Hant">打出</span> = <b>discard</b>:
+<ul class="compressed">
+<li>
+The winner wins 2 portions.
+</li>
+<li>
+The player at fault loses 2 portions.
+</li>
+</ul>
+</li>
+<li>
+<span lang="zh-Hant">包自摸</span> = <b>guaranteed self-draw</b>:
+<ul class="compressed">
+<li>
+The winner wins 3 portions.
+</li>
+<li>
+The guarantor (the player who supplied enough favourable tiles)
+loses 3 portions.
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>
+For other cases,
+see the <a href="https://github.com/yawnoc/mahjong-scorer#details">Details section</a> of <a href="https://github.com/yawnoc/mahjong-scorer">Conway's mahjong-scorer readme</a>.
 </p>
 <footer>
 Source: <a href="https://github.com/perthmahjongsoc/perthmahjongsoc.github.io/blob/master/guide/index.cmd"><code>guide/index.cmd</code></a>.

@@ -439,9 +439,78 @@ and/or rely on [bonuses].
 ##{#scoring} Scoring
 
 --
-Scoring is complicated.
-See [Conway's mahjong-scorer readme],
-in particular the [Details section].
+The Perth Mahjong Society uses the following options:
+--
+==
+- 五一 = __Five & One__ (a base scoring unit of 1)
+- 八番 = __Eight _faan___ maximum
+- 全銃 = __Full Responsibility__ (discarding player bears all losses)
+- 半辣上 = __Half-Spicy Rise__ (multiplier is arithmetic-mean interpolated after 4~_faan_)
+==
+
+--
+To score a finished game:
+--
+++++{start=0 .slightly-spacious}
+0. If the game is drawn, scores do not change.
+
+1. Convert the number of _faan_ to a __portion__:
+
+    ||||{.wide .spacious}
+      ''
+        |^
+          //
+            ; Number of _faan_
+            ; Portion
+        |:
+          //
+            , 3
+            , 8
+          //
+            , 4
+            , 16
+          //
+            , 5
+            , 24
+          //
+            , 6
+            , 32
+          //
+            , 7
+            , 48
+          //
+            , 8
+            , 64
+      ''
+    ||||
+
+1. If the game ended with ...
+
+  ++{type=a .slightly-spacious}
+  1. 自摸 = __self-draw__:
+     =={.compressed}
+     - The winner wins 3~portions.
+     - The other players each lose~1 portion.
+     ==
+
+  1. 打出 = __discard__:
+    =={.compressed}
+    - The winner wins 2~portions.
+    - The player at fault loses 2~portions.
+    ==
+
+  1. 包自摸 = __guaranteed self-draw__:
+    =={.compressed}
+    - The winner wins 3~portions.
+    - The guarantor (the player who supplied enough favourable tiles)
+      loses 3~portions.
+    ==
+  ++
+++++
+
+--
+For other cases,
+see the [Details section] of [Conway's mahjong-scorer readme].
 --
 
 

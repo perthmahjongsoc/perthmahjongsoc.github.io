@@ -69,6 +69,11 @@ img {
 }
 
 
+li table {
+  margin: 0.5em 0;
+}
+
+
 table {
   border-collapse: separate;
   border-spacing: 1px;
@@ -100,12 +105,23 @@ ul ul {
 }
 
 
+.compressed {
+  margin: 0;
+}
+
 .permalink {
   background-image: url(permalink.svg);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: 1em;
   padding-left: 1.5em;
+}
+
+.slightly-spacious {
+  margin-top: 0.5em;
+}
+.slightly-spacious > li {
+  margin-bottom: 0.5em;
 }
 
 .spacious > li {

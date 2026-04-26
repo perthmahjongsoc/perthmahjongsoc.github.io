@@ -149,7 +149,7 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
   --
   ==
   - When completed by revealing after a discard from the previous player,
-    this is called 上 __|_sh(e/)ung___ (going up, or onboarding).
+    this is called 上 __|_sheung___ (going up, or onboarding).
   ==
 
 - 刻子 = __Triplet__
@@ -193,11 +193,11 @@ As fallback, characters from the [Mahjong Tiles Unicode block]
 
 --
 The conventional threshold for a hand to be winning is a
-__minimum of three~|_f(a/)n___ (番, or points).
+__minimum of three~|_faan___ (番, or points).
 --
 --
-The conventional maximum for scoring is an __upper limit of thirteen~|_f(a/)n___,
-quite often reduced to an __upper limit of eight~|_f(a/)n___.
+The conventional maximum for scoring is an __upper limit of thirteen~|_faan___,
+quite often reduced to an __upper limit of eight~|_faan___.
 --
 
 
@@ -205,9 +205,9 @@ quite often reduced to an __upper limit of eight~|_f(a/)n___.
 
 --
 Regular winning hands consist of
-__four [melds] plus a pair__ called 眼 _ng(a/)n_ (__eyes__).
-By itself, such a win is worth zero~_f(a/)n_.
-To raise the number of _f(a/)n_, you need to
+__four [melds] plus a pair__ called 眼 _ngaan_ (__eyes__).
+By itself, such a win is worth zero~_faan_.
+To raise the number of _faan_, you need to
 go for one of the patterns below or an [irregular hand],
 and/or rely on [bonuses].
 --
@@ -265,7 +265,7 @@ and/or rely on [bonuses].
   --
   E.g. [1s][2s][3s] [tf][tf][tf] [nf][nf][nf] [sf][sf][sf] [pf][pf].
   In this example the requirement for 混一色 (Mixed-One-Suit) is also met,
-  so the hand is worth 6 + 3 = 9~_f(a/)n_.
+  so the hand is worth 6 + 3 = 9~_faan_.
   --
 
 - (+7) 清一色 = __Pure-One-Suit__

@@ -22,6 +22,10 @@ Quick links:
 --
 ====
 - [Layout & dice roll]
+  ==
+  - [18-column walls]
+  - [17-column walls]
+  ==
 
 - [Tiles]
   ==
@@ -49,17 +53,18 @@ The following diagrams show a top-down view of the initial four-wall layout.
 The numbered markers indicate (for each dice roll total)
 the initial position for drawing tiles.
 --
-===={.spacious}
-- 18-column walls:
-  ||
-    ![Diagram of layout.](/res/mahjong-wall-18-columns-with-start.svg)
-  ||
 
-- 17-column walls (no flowers):
-  ||
-    ![Diagram of layout.](/res/mahjong-wall-17-columns-with-start.svg)
-  ||
-====
+###{#18-column} 18-column walls
+
+||
+  ![Diagram of layout.](/res/mahjong-wall-18-columns-with-start.svg)
+||
+
+###{#17-column} 17-column walls
+
+||
+  ![Diagram of layout.](/res/mahjong-wall-17-columns-with-start.svg)
+||
 
 
 ##{#tiles} Tiles
@@ -515,6 +520,8 @@ see the [Details section] of [Conway's mahjong-scorer readme].
 
 
 [Layout & dice roll]: #layout
+  [17-column walls]: #17-column
+  [18-column walls]: #18-column
 [Tiles]: #tiles
   [Numbered suits]: #numbered-suits
   [Unnumbered suits]: #unnumbered-suits

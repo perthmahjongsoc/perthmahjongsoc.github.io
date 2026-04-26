@@ -388,7 +388,7 @@ and/or rely on [bonuses].
 - (+1~_faan_) 正花 = __Correct Flower__
   --
   A flower matching the player's position (in games played with flowers).
-  Not counted for 一臺花 (A Platform of Flowers).
+  Not counted for 一臺花 (A Table of Flowers).
   --
   --
   E.g. [3f] for the player opposite the dealer.
@@ -416,7 +416,7 @@ and/or rely on [bonuses].
   Winning tile is drawn as the final tile of the wall.
   --
 
-- (+2~_faan_) 一臺花 = __A Platform of Flowers__
+- (+2~_faan_) 一臺花 = __A Table of Flowers__
   --
   Either four flora or four seasons (in games played with flowers).
   --

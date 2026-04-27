@@ -3,7 +3,7 @@
 OrdinaryDictionaryReplacement: #.boilerplate-properties-override
 - queue_position: BEFORE #boilerplate-properties
 * %title --> Guide
-* %date-modified --> 2025-03-06
+* %date-modified --> 2025-04-27
 
 RegexDictionaryReplacement: #.faan-indicators
 - queue_position: BEFORE #whitespace
@@ -495,7 +495,7 @@ To score a finished game:
       ''
     ||||
 
-1. If the game ended with ...
+1. If the game ended with:
 
   ++{type=a .slightly-spacious}
   1. 自摸 = __self-draw__:

@@ -514,3 +514,40 @@ d - 4 -
 - - - -
 4 d - -
 - 4 - -
+
+
+2026-05-09
+
+Elayne Hwei Eugenie Jackie
+6 - - -
+- - 6 -
+4 - - d
+- - 8 d
+- d - 7
+- d - 3
+
+Elayne Hwei Eugenie James
+- - - 4
+4 - - d
+
+Elayne Hwei Conway Jackie
+- 4 d -
+- 8 - -
+3 - - d
+
+Elayne Eugenie Conway Jackie
+d 4 - -
+d - 5 -
+
+James Hwei Conway Jackie
+8 d - -
+
+James Hwei Conway Elayne
+- 3 - d
+
+Eugenie Hwei Conway Elayne
+7 d - -
+d - 4 -
+8 - - d
+4 - - d
+d 5 - -
